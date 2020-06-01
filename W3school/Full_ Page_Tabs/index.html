@@ -1,0 +1,171 @@
+<html>
+ <head>
+     <title>
+    Tab Headers
+    </title>  
+    <style>
+body{
+    font-family: "Lato", sans-serif;
+    }
+
+.tablink{
+background-color: #555;
+color:white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size:17px;
+width:25%;
+}
+.tablink:hover{
+background-color: #777;
+
+}
+.tabecontent{
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+
+}
+.London{
+    background-color: red;
+
+
+}
+.paris{
+   background-color: green;
+
+}
+.Tokyo{
+    background-color: blue;
+
+}
+.Oslo{
+    background-color: orange;
+}
+
+.red{
+    color:white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size:17px;
+width:25%;
+
+}
+.red:hover{
+    background-color:red;
+ 
+}
+.green{
+    color:white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size:17px;
+width:25%;
+
+}
+.green:hover{
+    background-color:green;
+ 
+}
+.blue{
+    color:white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size:17px;
+width:25%;
+
+}
+.blue:hover{
+    background-color:blue;
+ 
+}
+.orange{
+    color:white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size:17px;
+width:25%;
+
+}
+.orange:hover{
+    background-color:orange;
+ 
+}
+  </style>
+
+
+
+
+ </head> 
+ <body>
+    <p>Click on the buttons inside the tabbed menu:</p> 
+    <div id="London" class="tabecontent London">
+    <h1>London</h1>
+    <p>London is the capital city of England.</p>
+ </div>
+ <div id="paris" class="tabecontent paris">
+     <h1>paris</h1>
+    <p>Paris is the capital of France.</p>
+ </div>  
+ <div id="Tokyo" class="tabecontent Tokyo">
+     <h1>Tokyo</h1>
+     <p>Tokyo is the capital of Japan.</p>
+     
+</div>
+
+ <div id="Oslo" class="tabecontent Oslo">
+<h1>Oslo</h1>
+<p>Oslo is the capital of Norway.</p>
+
+ </div>   
+<button  id="Londonbtn" class="tablink"  onclick="changecolor('London','Londonbtn','London','red')">London</button>
+<button class="tablink"  id="parisbtn"      onclick="changecolor('paris','parisbtn','paris','green')">paris</button>
+<button class="tablink"  id="Tokyobtn"    onclick="changecolor('Tokyo','Tokyobtn','Tokyo','blue')">Tokyo</button>
+<button class="tablink"  id="Oslobtn"      onclick="changecolor('Oslo','Oslobtn','Oslo','orange')">Oslo</button>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+<script>
+    var changecolor =function(divid,buttonid,classname,btnclass){
+      if($("#"+divid).is(":visible")) {
+
+          $("#"+divid).hide();
+          $("#"+buttonid).removeClass(classname);
+          $("#"+buttonid).addClass("tablink");
+          $("#"+buttonid).removeClass(btnclass);
+
+      } else{
+                    $("#"+divid).show();
+                    $("#"+buttonid).addClass(classname);
+                    $("#"+buttonid).removeClass("tablink");
+                    $("#"+buttonid).addClass(btnclass);
+            }
+     
+
+    }
+
+
+
+</script> 
+</body>
+
+
+
+ <html> 

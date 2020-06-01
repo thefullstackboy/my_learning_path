@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+portfolio gallery
+</title>
+<style>
+* {
+     box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: Arial;
+    padding: 20px;
+}
+.main{
+    max-width: 1000px;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    word-break: auto;
+}
+.row{
+    margin: 8px -16px;
+
+}
+.row,
+.row> .column {
+    padding: 8px;
+}
+.column{
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+content: " ";
+display: table;
+clear: both;
+
+}
+
+.content{
+background-color: white;
+padding: 10px;
+
+}
+@media screen and (max-width: 900px;){
+    .column{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+ <div  class="main"> 
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<div class="row">
+    <div class="column">
+        <div class="content">
+         <img src="mountains.jpg" alt="Mountains" style="width: 100%;">
+         <h3>My Work</h3>
+         <p>Lorem ipsum dolor sit amet, tempor prodesset eos no.
+              Temporibus necessitatibus sea ei, at tantas oporteat
+               nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+    </div>
+<div class="column">
+    <div class="content">
+    <img src="lights.jpg" alt="lights" style="width: 100%;">
+<h3>My Work</h3>
+<p>
+    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+              Temporibus necessitatibus sea ei, at tantas oporteat
+               nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+</p>
+
+</div>
+</div>
+<div class="column">
+    <div class="content">
+        <img src="nature.jpg" alt="nature" style="width: 100%;">
+        <h3>My Work</h3>
+        <p>
+            Lorem ipsum dolor sit amet, tempor prodesset eos no.
+            Temporibus necessitatibus sea ei, at tantas oporteat
+             nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+        </p>
+
+    </div>
+</div>
+
+<div class="column">
+    <div class="content">
+     <img src="mountains.jpg" alt="main" style="width: 100%;">
+     <h3>My Work</h3>
+     <p>
+        Lorem ipsum dolor sit amet, tempor prodesset eos no.
+        Temporibus necessitatibus sea ei, at tantas oporteat
+         nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+    </p>
+
+
+    </div> 
+    </div>
+</div>
+
+
+    <div class="content">
+      <img src="p3.jpg" alt="Bear" style="width: 100%;">
+      <h3>My Work</h3>
+      <p>
+        Lorem ipsum dolor sit amet, tempor prodesset eos no.
+        Temporibus necessitatibus sea ei, at tantas oporteat
+         nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+    </p>
+    </div>
+</div>    
+   
+
+
+
+</body>
+</html>

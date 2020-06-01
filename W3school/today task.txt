@@ -1,0 +1,151 @@
+today date:6-05-202               status
+
+1 off canvas menu                  complete
+2 hover sidenav Buttons       complete	            
+3 sidebar with icons               complete
+4 Horizontal scroll menu       complete
+5 vertical menu                       complete       
+
+
+date :7-05-2020
+1 Bottom navigation                       complete
+2 Responsive bottom nav              complete
+3 bottom border nav link                complete  
+4 right aligned menu links             complete
+5 centered menu link	                     complete
+
+date:8-05-2020
+1 Equal width menu Links               complete
+2 Fixed menu	                       complete
+3 slide Down bar on scroll               complete
+4 Hide navbar on scroll	     complete
+5 Shrink navbar on scroll                complete
+
+date:9-05-2020	                       
+1 Sticky Navbar                                 complete
+2 Navbar on image                           complete
+3 Hover Dropdowns                         complete   
+4 Click Dropdowns                           complete
+5 Dropdowns in topnav                   complete
+
+date: 11-05-2020
+1 Dropdown in sidenav                    complete
+2 Rese Navbar Dropdown                complete
+3 Sunbnavigation Menu                   complete
+4 Dropup                                            complete
+5 Mega Menu                                      complete
+
+date:13-05-2020
+1 Mobile Menu                                    complete
+2 Curtain Menu                                   complete(Off_Canvas_ Menu_ Sidenav_ Push)
+3 Collapsed Sidebar                          complete
+4 Collapsed Sidepanel                      complete
+5 pagination                                        complete
+
+date:14-05-2020
+1 Breadcrumbs                                       complete
+2 Button Group                                      complete
+3 Vertical Button Group                        complete
+4 sticky social Bar                                  complete
+5 pill Navigation                                     complete
+6 Response header                                complete*(al.)
+
+date:15-05-2020 (images)                         
+1 slideshow                                            complete
+2 slideshow gallery                               complete
+3 modal images                                     complete
+4 lightbox                                               complete
+5 Responsive image grid                     complete       
+
+date:17-05-2020
+1 image grid                                            complete
+2 tab gallery                                            complete 
+3 image overlay fade                             complete 
+4 image overlay slide                            complete
+5 image overlay zoom                           complete
+
+date:19-05-2020
+1 image overlay Title                               complete
+2 image overlay icon                               complete   
+3 image Effects                                         complete
+4 Black and white image                         complete
+5 image text	                              complete
+
+date:20-05-2020
+1 Image text blocks                                 complete
+2 trasparent image text   or  
+Image with Transparent Text                 complete
+3 full page image                                     complete
+4 form on image  or Form on Hero Image                                  complete
+5 Hero image                                            complete  
+
+date:21-05-2020
+1 Blur Background image                          complete
+2 change Bg on scroll                                 complete
+3 side-by-side image                                   complete
+4 Rounded images                                       complete
+5 Avatar images                                           complete
+
+date:22-05-2020
+1 Responsive images                                    complete
+2 center images                                              complete
+3 Thumbnails                                                  complete          
+4 Border around image                                 complete
+5 Sticky image                                               
+
+date:23-05-2020
+1 Meet the Team                                               complete                                     
+2 Filp an image                                                 complete
+3 shake an image                                             complete
+4 portfolio gallery                                             complete
+5 portfolio with Filtering                                  complete
+
+date:25-05-2020
+1 image zoom                                                     complete
+2 image Magnifier Glass                                    complete
+3 imaga Comparison slider                               complete
+
+date:25-05-2020
+1 alert buttons                                                 complete
+2 outline buttons                                             complete
+3 split buttons                                                  complete
+4 animated buttons                                          complete
+5 fading buttons                                            complete
+
+date:26-05-2020
+1 button on image                                          complete
+2 social media buttons                                   complete 
+3 read more read less                                    complete
+4 loading buttons                                           complete
+5 download buttons                                       complete
+
+date:27-05-2020
+1 pill buttons                                                        complete
+2 notification buttons                                          complete
+3 icon buttons                                                      complete 
+4 next/prev buttons                                              complete
+5 more button in nav                                            complete
+6 block button                                                        complete
+7 text button                                                           complete
+8 round buttons                                                     complete
+
+date:28-05-2020
+1 scroll to top button                                              complete            
+2 login form                                                              complete **                                                                                                            (weak)
+3 signup form                                                          complete **                                                                                                             (weak)
+4 checkout form                                                       complete
+5 contact form                                                          complete*
+
+date:30-05-2020
+1 social login form                                         complete
+2 register form                                                complete
+3 form with icons                                            complete
+4 newsletter                                                      complete
+5 stacked form                                                 complete
+
+date:31-05-2020
+1 responsive form                                                  complete
+2 popup form                                                          complete
+3 inline form
+4 clear input field
+5 hide number arrows

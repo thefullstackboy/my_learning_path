@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+
+nav bar vertical
+
+
+
+
+
+</title>
+<style>
+body{
+ margin: 0;
+    
+}
+
+.icon-bar{
+width:  100px;
+background-color: #555;
+ font-size: 65px;
+ text-align: center;
+margin-left: 0px;
+position: fixed;
+}
+
+.icon-bar > a{
+display:block;
+padding:26px;
+transition: all 1s ease;
+color:white;
+padding-right:30px;
+
+
+
+
+
+}
+.icon-bar> a.act:hover{
+background-color:green ;
+
+
+}
+
+.act{
+background-color: green;
+
+
+}
+
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+ <div class="icon-bar">
+<a  id="qw"   class="act" href="#"  onclick="abc('qw')"><i class="fa fa-home"></i></a> 
+<a href="#" id="wq" onclick="abc('wq')"><i  class="fa fa-search"></i></a> 
+<a href="#"  id="rt"  onclick="abc('rt')"><i  class="fa fa-envelope"></i></a>
+ <a href="#" id="uip" onclick="abc('uip')"><i  class="fa fa-globe"></i></a>
+ <a href="#" id="wnj" onclick="abc('wnj')"><i  class="fa fa-trash"></i></a>
+ 
+
+
+ </div>
+
+ <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+
+<script>
+var abc=function(abc){
+$("a").removeClass("act");
+$("#"+abc).addClass("act");
+
+}
+
+</script>
+</body>
+
+
+
+
+
+</html>

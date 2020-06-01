@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+nav bar
+
+
+
+
+</title>
+
+<style>
+  body{
+      margin: 0;
+  }  
+.navbar{
+ width: 100%;
+  background-color: #555;
+  overflow: auto;
+
+
+
+
+}
+.navbar a{
+    float:left;
+    padding: 12px 0;
+font-size:48px;
+color:white;
+text-align: center;
+width:20%;
+
+
+}
+.navbar > a:hover {
+  background-color: #000;
+  
+
+}
+
+
+
+.active{
+background-color: #4CAF50;
+
+
+}
+.navbar > a.active:hover {
+    background-color: #4CAF50;
+}
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+    <div class="navbar" >
+<a id="ct"    onclick="setactive('ct')"  class="active" href="#" ><i class="fa fa-home"></i></a>
+<a href="#" id="tra" onclick="setactive('tra')"><i class="fa fa-search"></i></a>
+<a  href="#" id="globe" onclick="setactive('globe')"><i class="fa fa-globe"></i></a>
+<a  href="#" id="find" onclick="setactive('find')"><i class="fa fa-trash"></i></a>
+<a  href="#" id="lgp" onclick="setactive('lgp')"><i class="fa fa-envelope"></i></a>
+
+
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+   
+   <script>
+var setactive=function (valuid){
+    $("a").removeClass("active");
+    $("#"+valuid).addClass("active");
+
+
+}
+
+
+    </script>
+    
+</body>
+
+</html>

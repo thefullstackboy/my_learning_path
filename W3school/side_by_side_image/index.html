@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+side  by side image 
+</title>
+<style>
+* {
+box-sizing: border-box;
+
+}    
+
+.column{
+width: 33.33%;
+float: left;
+padding: 5px;
+
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<h2>Images Side by Side</h2>
+<p>Images Side by Side</p>
+
+
+<div class="row">
+    <div class="column">
+<img src="img_snow.jpg" alt="snow" style="width: 100%;">  
+     </div>
+    <div class="column">
+<img src="img_forest.jpg" alt="forest" style="width: 100%;">
+       </div>
+    <div class="column">   
+<img src="img_mountains.jpg" alt="mountains" style="width: 100%;">
+       </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

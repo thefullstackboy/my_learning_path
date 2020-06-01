@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flex Example</title>
+    <style media="screen">
+      *{
+        box-sizing:border-box;
+      }
+
+      .container{
+        width:90%;
+        max-width:1200px;
+        margin:auto;
+        height:1200px;
+        background:#555;
+        padding:10px;
+      }
+
+      .list{
+        display:flex;
+        flex-wrap: wrap;
+      }    
+
+      .item-inner{
+        background:#EEE;
+        height:100%;
+        width:100%;
+      }
+
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .item{
+        width:95%;
+        height:200px;
+        padding:10px;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px),(min-width: 768px) {
+    .item{
+        width:49%;
+        height:200px;
+        padding:10px;
+      }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px),(min-width: 1200px) {
+    .item{
+        width:33%;
+        height:200px;
+        padding:10px;
+      }
+}
+
+
+  
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="list">
+
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-inner">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

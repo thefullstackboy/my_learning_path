@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+<title>
+ image overlay icon   
+</title>
+<style>
+    .container{
+    position: relative;
+    max-width: 400px;
+    width: auto;   
+
+    }
+
+    .image{
+     display: block;
+     width: 100%;
+     height: auto;
+
+    }
+    .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .3s ease;
+
+
+    }
+    .container:hover .overlay{
+        opacity: 1;
+
+    }
+.icon{
+   font-size: 100px;
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+}
+.fa-user:hover {
+  color: #eee;
+}
+
+</style>
+</head>
+<body>
+<h2>Fade in Overlay Icon</h2>
+<p>Hover over the image to see the effect.</p>
+<div class="container">
+    <img src="p1.jpg" alt="Avtar" class="image">
+    <div class="overlay">
+        <a href="#" class="icon">
+        <i class="fa fa-user"></i>
+       </a>
+    </div>
+
+</div>
+
+</body>
+</html>

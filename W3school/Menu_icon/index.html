@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+menubar
+
+
+
+</title>
+
+
+
+<style>
+    
+.resize{
+    font-size: 60px;
+
+    
+}
+.psd{
+   font-size: 60px;
+
+}
+
+</style>
+</head>
+
+<body>
+
+<i  id="menuicon" onclick="changeicon('menuicon')"  class="fa fa-bars resize"></i>
+
+
+
+
+  
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+<script>
+
+var changeicon = function (iconid) {
+
+
+if(  $("#"+iconid).hasClass("fa-bars")   )
+{
+    $("#"+iconid).removeClass("fa-bars");
+    $("#"+iconid).addClass("fa-times");
+//remove  fa-bars and add fa-times
+
+} else {
+    //remove times and add fa-bars
+      $("#"+iconid).removeClass("fa-times");    
+      $("#"+iconid).addClass("fa-bars");
+    }
+}   
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+
+</html>

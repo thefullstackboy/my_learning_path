@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--change -->
+        <title>
+fixed sidebar full height
+        </title>
+        <style>
+          body{
+              font-family: "Lato", sans-serif;
+          }  
+
+ .sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+
+}
+.main{
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+
+} 
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a{font-size: 18px;}
+} 
+
+    </style>
+    </head>
+    <body>
+
+   
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about" class="fa fa-home">  Home</a>
+            <a href="#services" class="fa fa-wrench">  Services</a>
+            <a href="#clients" class="fa fa-user">  Clients</a>
+            <a href="#contact" class="fa fa-envelope">  Contact</a>
+
+</div>
+<div class="main">
+<h2>Sidebar</h2>
+<p>
+This sidebar is of full height (100%) and always shown.
+</p>
+<p>Scroll down the page to see the result.
+</p>
+<p> Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+     maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te,
+      id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint effician
+      tur his ad. Eum no molestiae voluptatibus.
+</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+       maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+       id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiant
+       ur his ad. Eum no molestiae voluptatibus.
+</p>  
+ <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+        maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+        id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiant
+        ur his ad. Eum no molestiae voluptatibus.
+</p> 
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+    maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+    id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiant
+    ur his ad. Eum no molestiae voluptatibus.
+</p>
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+    maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+    id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiant
+    ur his ad. Eum no molestiae voluptatibus.
+</p>  
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+    maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+    id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiant
+    ur his ad. Eum no molestiae voluptatibus.
+</p>      
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo,
+    maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+    id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiant
+    ur his ad. Eum no molestiae voluptatibus.
+</p>     
+   
+    
+
+
+</div>
+<h2>Animated Sidenav Example</h2>
+<p>Click on the element below to open the side navigation menu.</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+</body>
+</html>

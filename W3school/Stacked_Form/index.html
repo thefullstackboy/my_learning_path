@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+stacked form
+</title>
+<style>
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  input[type=text], select {
+      width: 100;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+
+  }
+
+input[type=submit] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+div.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<h3>Stacked Form</h3>
+<p>How to use CSS to create a stacked form:</p>
+
+
+<div class="container">
+<form action="/action_page.php">
+<label for="fname">First Name</label>
+<input type="text" placeholder="your name ..."   name="First name"  id="fname">
+
+<label for="l name">Last name</label>
+<input type="text" placeholder="your last name..." name="l name" id="l name">
+
+<label name="country">country</label>
+<select id="country" name="country">
+<option value="australia">Australia</option>
+<option value="canada">Canada</option>
+<option value="usa">USA</option>
+</select>
+
+<input type="submit" value="submit">
+
+</form>
+</div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+Sunbnavigation Menu
+</title>
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+.navbar{
+background-color: #333;
+overflow: hidden;
+}
+.navbar a{
+float: left;
+color: white;
+font-size: 16px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.subnav{
+float: left;
+overflow: hidden;
+}
+.subnav .subnavbtn{
+font-size: 16;
+background-color: inherit;
+border: none;
+font-family: inherit;
+margin: 0;
+outline: none;
+color:white;
+padding: 14px 16px;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+background-color: red;
+}
+.subnav_content{
+display: none;
+position: absolute;
+left: 0;
+background-color: red;
+width: 100%;
+z-index: 1;
+
+}
+.subnav_content a{
+float: left;
+color: white;
+text-decoration: none;
+
+}
+.subnav_content a:hover {
+  background-color: #eee;
+  color:black;
+} 
+
+.subnav:hover .subnav_content{
+  display: block;
+}
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<a href="#">Home</a>
+<div class="subnav">
+ <button class="subnavbtn">About
+ <i class="fa fa-caret-down"></i>
+</button> 
+<div class="subnav_content">
+    <a href="#">Company</a>
+    <a href="#">Team</a>
+  <a href="#">Careers</a>
+ </div>
+ </div>
+ <div class="subnav">
+<button class="subnavbtn">Services
+ <i class="fa fa-caret-down"></i> 
+</button>
+<div class="subnav_content">
+    <a href="#">Bring</a>
+    <a href="#">Deliver</a>
+    <a href="#">Packge</a>
+    <a href="#">Express</a>
+</div>
+</div>
+<div class="subnav">
+<button class="subnavbtn">Partners
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="subnav_content">
+    <a href="#">Link1</a>
+    <a href="#">Link2</a>
+    <a href="#">Link3</a>
+    <a href="#">Link4</a>
+</div>
+</div>
+<a href="#">contact</a>
+</div>
+<div style="padding:0 16px">
+  <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+  <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
+</div>
+
+
+
+</body>
+</html>
+      

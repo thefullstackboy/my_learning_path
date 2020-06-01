@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    search menu
+
+</title>
+<style>
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+ }   
+ * {
+  box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.left{
+ flex: 35%;
+ padding: 15px 0;
+}
+
+.left h2{
+padding-left:8px;
+
+}
+.right {
+flex: 65% ;
+padding: 15px;
+}
+#myinput{
+width: 100%;
+font-size: 18px;
+padding: 11px;
+border: 1px solid #ddd;
+
+}
+#mylist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#mylist li{
+    padding: 12px;
+
+}
+##myinput li a{
+text-decoration: none;
+color: black;
+display: block
+
+}
+#mylist > li:hover {
+background-color: #eee;
+
+
+} 
+
+
+
+
+</style>
+</head>
+
+<script>
+
+
+
+
+</script>
+
+<body>
+  <h2>Search Menu</h2>  
+  <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+
+  <div class="row">
+  <div class="left" style="background-color:#bbb;">   
+      <h2>Menu</h2>
+      <input type="text" placeholder="search" id="myInput">
+      <ul id="myList">
+<li><a  href="#"></a>HTML</li>
+<li><a  href="#"></a>CSS</li>
+<li><a  href="#"></a>Java script</li>
+<li><a  href="#"></a>PHP</li>
+<li><a  href="#"></a>python</li>
+<li><a  href="#"></a>ajquery</li>
+<li><a  href="#"></a>Sql</li>
+<li><a  href="#"></a>Bootstrap</li>
+<li href="#">Node.js</li>
+</ul>
+</div>
+<div class="right" >
+  <h2>page content</h2>  
+<p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+<p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+<p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+<p>Some text...</p>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
+</html>

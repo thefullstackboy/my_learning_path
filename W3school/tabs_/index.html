@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+navbar
+
+
+</title>
+<style>
+  .tab{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  }  
+  .tab button{
+  background-color: inherit;
+  float:  left;
+  border:  none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transform: 0.3s;
+  font-size: 17px;
+
+  }
+
+  /*  change the hover color  */
+  .tab button:hover  {
+      background-color: #ddd;
+
+
+
+  }
+  .tab button.active {
+  background-color: #ccc;
+
+  }
+  .tabcontent{
+display: none;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-top: none;
+
+
+
+  }
+
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+<h2>tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+<div class="tab">
+<button onclick="shos('london')">london</button>
+<button onclick="shos('paris')">paris</button>
+<button onclick="shos('tokyu')">tokyu</button>
+</div>
+<div id="london"  class="tabcontent">
+<h3>london</h3>
+<p>London is the capital city of England.</p>
+</div>
+
+<div id="paris" class="tabcontent">
+<h3>paris</h3>
+<p>Paris is the capital of France</p>
+</div>
+
+<div id="tokyu" class="tabcontent">
+<h3>tokyu</h3>
+<p>Tokyo is the capital of Japan.</p>
+</div>
+
+
+
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+<script>
+var shos =function(valuid){
+    if($("#"+valuid).is(":visible")) { 
+                        $("#"+valuid).hide();
+                    } else { 
+                        $(".tabcontent").hide();
+                        $("#"+valuid).show();
+
+                    } 
+     }
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+
+
+</html>
