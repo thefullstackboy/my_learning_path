@@ -145,7 +145,7 @@ date:30-05-2020
 
 date:31-05-2020
 1 responsive form                                                  complete
-2 popup form                                                          complete
-3 inline form
+2 popup form                                                          complete         
+3 inline form                                                            porcees
 4 clear input field
 5 hide number arrows
