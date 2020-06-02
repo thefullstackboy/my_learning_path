@@ -145,7 +145,14 @@ date:30-05-2020
 
 date:31-05-2020
 1 responsive form                                                  complete
-2 popup form                                                          complete         
+2 popup form                                                          complete              *sc    
 3 inline form                                                            complete
 4 clear input field                                                    complete
 5 hide number arrows                                            complete
+
+date: 2-06-2020
+1 copy text to clipboard                                             complete                    git
+2 animated search                                                       complete                   git 
+3 search button                                                           complete
+4 fullscreen search                                                      complete                        *sc
+5 input field in navbar
