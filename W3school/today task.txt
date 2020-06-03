@@ -159,7 +159,7 @@ date: 2-06-2020
 
 date:3-06-2020
 1 login form in navbar                                               complete
-2 custom checkbox/radio                                          process
-3 custom select                                                                                                          *sc
-4 toogle switch
+2 custom checkbox/radio                                          complete
+3 custom select                                                           complete                                             
+4 toogle switch                                                             process
 5 check checkbox                                                                                                      *sc
