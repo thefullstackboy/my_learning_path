@@ -151,8 +151,15 @@ date:31-05-2020
 5 hide number arrows                                            complete
 
 date: 2-06-2020
-1 copy text to clipboard                                             complete                    git
-2 animated search                                                       complete                   git 
+1 copy text to clipboard                                             complete                    
+2 animated search                                                       complete                    
 3 search button                                                           complete
 4 fullscreen search                                                      complete                        *sc
-5 input field in navbar
+5 input field in navbar                                                  complete          
+
+date:3-06-2020
+1 login form in navbar                                               complete
+2 custom checkbox/radio                                          process
+3 custom select                                                                                                          *sc
+4 toogle switch
+5 check checkbox                                                                                                      *sc
