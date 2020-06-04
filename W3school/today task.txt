@@ -165,8 +165,8 @@ date:3-06-2020
 5 check checkbox                                                       complete                                                *sc
 
 date:4-06-2020
-1 detect caps lock                                           process
-2 trigger button on enter
-3 password validation
+1 detect caps lock                                           complete                                                   *sc
+2 trigger button on enter                                complete                                                  *sc
+3 password validation                                    process
 4 toogle password visibility
 5 multiple step form
