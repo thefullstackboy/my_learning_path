@@ -171,4 +171,5 @@ date:4-06-2020
 4 toogle password visibility                            complete
 5 autocomplete                                                     complete
 6 Autocomplete on/off                                        complete
-7 Disable Spellcheck                                             process
+7 Disable Spellcheck                                             complete
+8 file upload button                                                 complete
