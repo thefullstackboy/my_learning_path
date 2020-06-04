@@ -170,4 +170,5 @@ date:4-06-2020
 3 password validation                                    complete
 4 toogle password visibility                            complete
 5 autocomplete                                                     complete
-6 Autocomplete on/off                                        process
+6 Autocomplete on/off                                        complete
+7 Disable Spellcheck                                             process
