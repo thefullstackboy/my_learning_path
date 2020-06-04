@@ -161,5 +161,12 @@ date:3-06-2020
 1 login form in navbar                                               complete
 2 custom checkbox/radio                                          complete
 3 custom select                                                           complete                                             
-4 toogle switch                                                            complete
-5 check checkbox                                                        process                                              *sc
+4 toogle switch                                                             complete 
+5 check checkbox                                                       complete                                                *sc
+
+date:4-06-2020
+1 detect caps lock                                           process
+2 trigger button on enter
+3 password validation
+4 toogle password visibility
+5 multiple step form
