@@ -169,4 +169,5 @@ date:4-06-2020
 2 trigger button on enter                                complete                                                  *sc
 3 password validation                                    complete
 4 toogle password visibility                            complete
-5 autocomplete                                       
+5 autocomplete                                                     complete
+6 Autocomplete on/off                                        process
