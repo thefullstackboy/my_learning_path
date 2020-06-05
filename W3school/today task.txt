@@ -173,3 +173,4 @@ date:4-06-2020
 6 Autocomplete on/off                                        complete
 7 Disable Spellcheck                                             complete
 8 file upload button                                                 complete
+9 JavaScript validation for empty input field       complete               
