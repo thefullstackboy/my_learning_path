@@ -177,9 +177,10 @@ date:4-06-2020
  
 date:5-06-2020
 1 multiple step form                                                       complete
-2 filter list                                                                          process
-3 filter table
+2 filter list                                                                          complete
+3 sort table                                                                       complete
 4 filter elements
 5 filter dropdown
 6 sort list
-7 sort table         
+7 filter table 
+    
