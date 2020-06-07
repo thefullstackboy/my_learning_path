@@ -180,7 +180,7 @@ date:5-06-2020
 1 filter list or filter/search list                               complete
 2 filter table                                                            complete
 3 filter elements                                                    complete
-4 filter dropdown                                                  -------------
+4 filter dropdown                                                process
 5 sort list                                                                complete
 6 sort table                                                             -------------  
 
