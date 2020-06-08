@@ -190,5 +190,12 @@ date:7-06-2020
 3 responsive tables			     complete						
 4 comparison table                                              complete
 
+date:8-06-2020
+1 fullscreen video                                                process
+2 model Boxes
+3 Delete Modal
+4 timeline
+5 scroll indicator
+
 
     
