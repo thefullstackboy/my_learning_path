@@ -194,8 +194,8 @@ date:8-06-2020
 1 fullscreen video                                                complete                                     *sc
 2 model boxes                                                      complete                                    *sc
 3 Delete Modal                                                      complete                                     *sc
-4 timeline                                                               complete                                       *sc
-5 scroll indicator
+4 timeline                                                               complete                                         *sc
+5 scroll indicator	                                           process
 
 
     
