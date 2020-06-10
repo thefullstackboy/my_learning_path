@@ -204,5 +204,10 @@ date:9-06-2020
 4 tooltips                                                               complete  
 5 display element hover                                      complete
 
-
+date:10-06-2020
+1 popups                                                              process  
+2 collapsible
+3 calendar
+4 html includes
+5 to do list
     
