@@ -200,8 +200,8 @@ date:8-06-2020
 date:9-06-2020
 1 progress bars                                                   complete                                     *sc
 2 skill bar                                                              complete
-3 range sliders                                                     process
-4 tooltips
+3 range sliders                                                     complete
+4 tooltips                                                               complete
 5 display element hover
 
 
