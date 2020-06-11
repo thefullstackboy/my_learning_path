@@ -212,8 +212,8 @@ date:10-06-2020
 5 star rating                                                           complete                     
 
 date:11-06-2020
-1 to do list                                                             process                                                       
-2 Loader
+1 to do list                                                             complete                                                       
+2 Loader                                                               process
 3 user rating 
 4 overlay effect
 5 contact chips

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Loaders
+</title>
+<style>
+
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+        padding:  5px 5px 5px 5px;
+        margin-right: 5px 5px 5px 5px;
+        text-align: 50px;
+    }
+
+.a {
+    border-top: 16px solid #3498db;
+         
+}
+.b {
+    border-top: 16px solid blue;
+}
+.c {
+    border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+}
+
+.d {
+    border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+}
+    @-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+ <h2>How To Create A Loader</h2> 
+ 
+ <div class="loader a"></div>
+ <br>
+ <br>
+ <div class="loader b"></div>
+ <br>
+ <br>
+ <div class="loader c"></div>
+ <br>
+ <br>
+ <div class="loader d"></div>
+
+
+
+
+
+
+
+
+</body>
+</html>
