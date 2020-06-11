@@ -213,8 +213,8 @@ date:10-06-2020
 
 date:11-06-2020
 1 to do list                                                             complete                                                       
-2 Loader                                                               process
-3 user rating 
+2 Loader                                                                complete
+3 user rating                                                          process
 4 overlay effect
 5 contact chips
 
