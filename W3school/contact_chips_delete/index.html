@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+contact chips delete
+</title>
+<style>
+
+ .chip {
+     display: inline-block;
+     padding: 0 25px;
+     height: 50px;
+     font-size: 18px;
+     line-height: 50px;
+     border-radius: 25px;
+     background-color: #f1f1f1;
+ }   
+
+ .chip img {
+     float: left;
+     margin: 0 10px 0 -25px;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+ }
+
+
+
+
+
+</style>
+</head>
+<body>
+   <p> Click on the "x" symbol to delete the contact.</p>
+
+   <div class="chip">
+       <img src="img_avatar.png" alt="person" width="96" height="96">
+       John Doe
+   <span onclick="this.parentElement.style.display='none'">&times;</span>
+
+   </div>
+
+
+
+
+</body>
+</html>
