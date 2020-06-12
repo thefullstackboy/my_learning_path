@@ -221,7 +221,7 @@ date:11-06-2020
 date:12-06-2020
 1 cards                                                                 complete
 2 flip card				   complete
-3 profile card
+3 profile card                                                       process
 4 product card
 5 Alert
 
