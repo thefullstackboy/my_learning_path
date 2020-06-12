@@ -212,10 +212,10 @@ date:10-06-2020
 5 star rating                                                           complete                     
 
 date:11-06-2020
-1 to do list                                                             complete                                                       
-2 Loader                                                                complete
-3 user rating                                                          complete
-4 overlay effect                                                       complete
-5 contact chips                                                       process
+1 to do list                                                                complete                                                       
+2 Loader                                                                   complete
+3 user rating                                                             complete
+4 overlay effect                                                        complete
+5 contact chips                                                        complete
 
     
