@@ -9,3 +9,4 @@ This tutorial will teach you JavaScript from basic to advanced.
 
 1 JavaScript Can Change HTML Content 
 2 click to display date and time
+3 JavaScript in Body
