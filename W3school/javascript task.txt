@@ -8,3 +8,4 @@ This tutorial will teach you JavaScript from basic to advanced.
 12-06-2020
 
 1 JavaScript Can Change HTML Content 
+2 click to display date and time
