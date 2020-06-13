@@ -10,3 +10,10 @@ This tutorial will teach you JavaScript from basic to advanced.
 1 JavaScript Can Change HTML Content 
 2 click to display date and time
 3 JavaScript in Body
+
+13-06-2020
+
+1 js output 
+3 js statements
+3 js syntax
+4 js comments
