@@ -5,34 +5,7 @@ JavaScript is easy to learn.
 This tutorial will teach you JavaScript from basic to advanced.
 
 
-12-06-2020
-
-1 JavaScript Can Change HTML Content 
-2 click to display date and time
-3 JavaScript in Body
-
-13-06-2020
-
-1 js output                complete
-3 js statements         complete
-3 js syntax                process
-1 https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_write
-
-2 https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_write_over
-
-3 https://www.w3schools.com/js/tryit.asp?filename=tryjs_statements_semicolon1
-
-4 https://www.w3schools.com/js/tryit.asp?filename=tryjs_statement 
-
-5 https://www.w3schools.com/js/tryit.asp?filename=tryjs_statements_linebreak
-
-6 https://www.w3schools.com/js/tryit.asp?filename=tryjs_statements_blocks
-
-7 https://www.w3schools.com/js/tryit.asp?filename=tryjs_syntax_strings
-
-
-  
 
 
 
-4 js comments
+
