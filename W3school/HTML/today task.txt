@@ -232,6 +232,8 @@ date:13-06-2020
 4 circles                                                                    complete
 5 style hr                                                                   complete
 6 coupon                                                                   complete
-7 list group                                                                process
+7 list group                                                                complete
+8 Responsive Text                                                    process 
+
 
     
