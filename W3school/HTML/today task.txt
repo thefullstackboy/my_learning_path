@@ -225,4 +225,11 @@ date:12-06-2020
 4 product card                                                     complete
 5 Alert                                                                 complete
 
+date:13-06-2020
+1 callout
+2 notes
+3 labels
+4 circles
+5 style hr
+
     
