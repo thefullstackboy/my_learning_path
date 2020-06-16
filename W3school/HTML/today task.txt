@@ -228,8 +228,10 @@ date:12-06-2020
 date:13-06-2020
 1 callout                                                                   complete
 2 notes                                                                     complete
-3 labels                                                                     process
-4 circles
-5 style hr
+3 labels                                                                     complete
+4 circles                                                                    complete
+5 style hr                                                                   complete
+6 coupon                                                                   process
+7 list group
 
     
