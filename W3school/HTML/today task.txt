@@ -223,6 +223,6 @@ date:12-06-2020
 2 flip card				   complete
 3 profile card                                                       complete
 4 product card                                                     complete
-5 Alert
+5 Alert                                                                 complete
 
     
