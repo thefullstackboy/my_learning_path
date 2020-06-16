@@ -231,7 +231,7 @@ date:13-06-2020
 3 labels                                                                     complete
 4 circles                                                                    complete
 5 style hr                                                                   complete
-6 coupon                                                                   process
-7 list group
+6 coupon                                                                   complete
+7 list group                                                                process
 
     
