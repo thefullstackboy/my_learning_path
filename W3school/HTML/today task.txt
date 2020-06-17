@@ -234,7 +234,20 @@ date:13-06-2020
 6 coupon                                                                   complete
 7 list group                                                                complete
 8 Responsive Text                                                    complete
-9 GLOWING TEXT                                                    process 
+9 GLOWING TEXT                                                    complete
+10 fixed footer                                                           complete 
+
+date:17-06-2020
+1 sticky element                                                          procss
+2 equal element
+3 clearfix
+4 responsive floats
+5 snackbar
+6 fullscreen window
+7 scroll drawing
+8 smooth scroll
+9 Gradient bg scroll
+10 shrink header 
 
 
     
