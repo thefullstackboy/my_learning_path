@@ -241,8 +241,8 @@ date:17-06-2020
 1 sticky element                                                          complete
 2 Equal Height Columns                                           complete
 3 clearfix                                                                       complete
-4 responsive floats                                                      process
-5 snackbar
+4 responsive floats                                                      complete
+5 snackbar                                                                    process
 6 fullscreen window
 7 scroll drawing
 8 smooth scroll
