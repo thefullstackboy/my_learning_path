@@ -239,8 +239,8 @@ date:13-06-2020
 
 date:17-06-2020
 1 sticky element                                                          complete
-2 Equal Height Columns                                           process
-3 clearfix
+2 Equal Height Columns                                           complete
+3 clearfix                                                                      process
 4 responsive floats
 5 snackbar
 6 fullscreen window
