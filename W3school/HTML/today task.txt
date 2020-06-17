@@ -238,8 +238,8 @@ date:13-06-2020
 10 fixed footer                                                           complete 
 
 date:17-06-2020
-1 sticky element                                                          procss
-2 equal element
+1 sticky element                                                          complete
+2 Equal Height Columns                                           process
 3 clearfix
 4 responsive floats
 5 snackbar
