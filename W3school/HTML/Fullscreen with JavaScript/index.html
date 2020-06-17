@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Fullscreen with javascript 
+</title>
+<style>
+
+
+
+
+</style>
+</head>
+<body>
+<h2>Click on the button to open the video in fullscreen mode.</h2>
+<p>Click on the button to open the video in fullscreen mode.</p>
+<button onclick="openFullscreen();">open video in fullscreen mode</button>
+<p><strong>Tip:</strong>press the "Esc" key to exit full screen.</p>
+
+
+<video width="100%" controls id="myvideo">
+    <source src="rain.mp4" type="video/mp4">
+    <source src="rain.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  
+
+
+
+
+
+<script>
+    var elem = document.getElementById("myvideo");
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) { /* Firefox */
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE/Edge */
+        elem.msRequestFullscreen();
+      }
+    }
+    </script>
+    
+    <p>Note: Internet Explorer 10 and earlier does not support the msRequestFullscreen() method.</p>
+    
+    </body>
+    </html>
