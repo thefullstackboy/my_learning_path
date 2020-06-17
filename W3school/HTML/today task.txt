@@ -242,9 +242,9 @@ date:17-06-2020
 2 Equal Height Columns                                           complete
 3 clearfix                                                                       complete
 4 responsive floats                                                      complete
-5 snackbar                                                                    process
-6 fullscreen window
-7 scroll drawing
+5 snackbar                                                                    complete
+6 fullscreen window                                                    complete
+7 scroll drawing                                                           process
 8 smooth scroll
 9 Gradient bg scroll
 10 shrink header 
