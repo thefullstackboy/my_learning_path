@@ -252,8 +252,8 @@ date:17-06-2020
 date:18-06-2020
 1 shrink Header on scroll                                            complete
 2 picing table                                                                 complete
-3 parallax                                                                       process
-4 aspect ratio
+3 parallax                                                                       complete
+4 aspect ratio                                                                 process
 5 responsive iframes
 6 toggle like
 7 toggle hide
