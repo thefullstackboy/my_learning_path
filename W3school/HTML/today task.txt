@@ -244,8 +244,8 @@ date:17-06-2020
 4 responsive floats                                                      complete
 5 snackbar                                                                    complete
 6 fullscreen window                                                    complete
-7 scroll drawing                                                           process
-8 smooth scroll
+7 scroll drawing                                                           complete
+8 smooth scroll                                                            complete
 9 Gradient bg scroll
 10 shrink header 
 
