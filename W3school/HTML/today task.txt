@@ -247,7 +247,19 @@ date:17-06-2020
 7 scroll drawing                                                           complete
 8 smooth scroll                                                            complete
 9 Gradient bg scroll                                                     complete
-10 sticky header                                                           process                                                         
+10 sticky header                                                           complete
+
+date:18-06-2020
+1 shrink Header on scroll                                            process
+2 picing table
+3 parallax
+4 aspect ratio
+5 responsive iframes
+6 toggle like
+7 toggle hide
+8 toggle dark mode
+9 toogle text
+10 toogle class                                                         
 
 
     
