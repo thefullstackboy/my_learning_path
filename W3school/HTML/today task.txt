@@ -257,8 +257,8 @@ date:18-06-2020
 5 responsive iframes                                                     complete
 6 toggle like                                                                    complete
 7 toggle hide                                                                  complete
-8 toggle dark mode                                                       process
-9 toogle text
+8 toggle dark mode                                                       complete
+9 toogle text                                                                    process
 10 toogle class                                                         
 
 
