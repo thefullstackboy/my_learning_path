@@ -250,8 +250,8 @@ date:17-06-2020
 10 sticky header                                                           complete
 
 date:18-06-2020
-1 shrink Header on scroll                                            process
-2 picing table
+1 shrink Header on scroll                                            complete
+2 picing table                                                                 process
 3 parallax
 4 aspect ratio
 5 responsive iframes
