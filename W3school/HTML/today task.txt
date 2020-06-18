@@ -255,8 +255,8 @@ date:18-06-2020
 3 parallax                                                                       complete
 4 aspect ratio                                                                 complete
 5 responsive iframes                                                     complete
-6 toggle like                                                                    process
-7 toggle hide
+6 toggle like                                                                    complete
+7 toggle hide                                                                  process
 8 toggle dark mode
 9 toogle text
 10 toogle class                                                         
