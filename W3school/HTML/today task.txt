@@ -246,7 +246,7 @@ date:17-06-2020
 6 fullscreen window                                                    complete
 7 scroll drawing                                                           complete
 8 smooth scroll                                                            complete
-9 Gradient bg scroll
+9 Gradient bg scroll                                                      process
 10 shrink header 
 
 
