@@ -259,7 +259,18 @@ date:18-06-2020
 7 toggle hide                                                                  complete
 8 toggle dark mode                                                       complete
 9 toogle text                                                                    complete
-10 toogle class                                                                process
+10 toogle class                                                                complete
 
+date:19-06-2020
+1 add class
+2 remove class
+3 active class
+4 tree view
+5 remove property
+6 offline detection
+7 find hidden element
+8 redirect webpage
+9 zoome hove
+10 flip box
 
     

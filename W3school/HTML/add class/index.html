@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+add class
+</title>
+<style>
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+
+
+</style>
+</head>
+<body>
+<p>Click the "Try it" button to add the "mystyle" class to the DIV element:</p>
+<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+This ia DIV element.
+</div>
+
+<script>
+    function myFunction() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("mystyle");
+    }
+    </script>
+    
+
+
+
+</body>
+
+
+
+
+
+
+</html>
