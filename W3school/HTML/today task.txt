@@ -266,9 +266,9 @@ date:19-06-2020
 2 remove class                                                                   complete
 3 active class                                                                      complete
 4 tree view                                                                            complete                                 **    
-5 remove property                                                              complete     
-6 offline detection
-7 find hidden element
+5 remove property                                                              complete                                **  
+6 offline detection                                                               complete                                                  **
+7 find hidden element                                                         process
 8 redirect webpage
 9 zoome hove
 10 flip box

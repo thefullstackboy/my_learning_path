@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+      find hidden element
+    </title>
+<style>
+
+</style>
+<body>
+
+    <p>click the button to find out if the DIV is hidden.if it is,then display it.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <div id="myDIV">
+        This is my DIV element.
+    </div>
+    <p>some text...</p>
+
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (window.getComputedStyle(x).display === "none") {
+            x.style.display = "block";
+          }
+        }
+        </script>
+        
+        </body>
+        </html>
+        
+
+
+
+
+
+
+</body>
+</head>
+</html>
