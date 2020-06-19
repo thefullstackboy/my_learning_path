@@ -266,7 +266,7 @@ date:19-06-2020
 2 remove class                                                                   complete
 3 active class                                                                      complete
 4 tree view                                                                            complete                                 **    
-5 remove property
+5 remove property                                                              complete     
 6 offline detection
 7 find hidden element
 8 redirect webpage
