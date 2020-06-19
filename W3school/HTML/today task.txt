@@ -262,9 +262,9 @@ date:18-06-2020
 10 toogle class                                                                complete
 
 date:19-06-2020
-1 add class
-2 remove class
-3 active class
+1 add class                                                                          complete
+2 remove class                                                                   complete
+3 active class                                                                      process
 4 tree view
 5 remove property
 6 offline detection
