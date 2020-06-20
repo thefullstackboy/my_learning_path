@@ -270,7 +270,7 @@ date:19-06-2020
 6 offline detection                                                               complete                                                  **
 7 find hidden element                                                         complete
 8 redirect webpage                                                              complete
-9 zoome hove
-10 flip box
+9 zoome hove                                                                       complete
+10 flip box                                                                              process
 
     
