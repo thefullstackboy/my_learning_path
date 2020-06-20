@@ -274,13 +274,13 @@ date:19-06-2020
 10 flip box                                                                              complete
 
 date:20-06-2020
-1 center vertically                                                               process
-2 center button in div
-3 transition on hover
-4 arrows
-5 shapes
-6 download link
-7 full height element
+1 center vertically                                                               complete
+2  transition on hover                                                        process
+3  arrows
+4 center button in div
+5 download link
+6  full height element
+7 shapes
 8 browser window
 9 custom scrollbar
 10 hide scrollbar
