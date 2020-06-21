@@ -277,8 +277,8 @@ date:20-06-2020
 1 center vertically                                                               complete
 2  transition on hover                                                        complete
 3  arrows                                                                      -----------------------------
-4 center button in div                                                         process
-5 download link
+4 center button in div                                                         complete
+5 download link                                                                   process  
 6  full height element
 7 shapes
 8 browser window
