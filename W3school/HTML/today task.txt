@@ -281,8 +281,8 @@ date:20-06-2020
 5 download link                                                                   complete  
 6  full height element                                                          complete
 7 shapes                                                                     -------------------------------
-8 browser window                                                              process                                  
-9 custom scrollbar
+8 browser window                                                              complete                                  
+9 custom scrollbar                                                              complete
 10 hide scrollbar
 
     
