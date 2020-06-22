@@ -290,8 +290,8 @@ date:22-06-2020
 2 contenteditable border                                                       complete        
 3 placeholder color                                                                complete
 4 text selection color                                                             complete
-5 bullet color                                                                           process
-6 vertical line
+5 bullet color                                                                           complete
+6 vertical line                                                                          process
 7 dividers
 8 animate icons
 9 countdown timer
