@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Covid-19 scanner</title>
+<style>
+
+.cont{
+  margin: auto;
+  width: 50%;
+  border: 2px solid black;
+  padding: 100px;
+  
+    background: orange;
+  
+}
+
+h1{
+  text-align:center;
+}
+.qts{
+font-size:large ;
+width:100%;
+font-style:bold;
+font-display:grid;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+
+}
+
+.sym{
+  font-size:large ;
+width:100%;
+font-style:bold;
+font-display:grid;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.qtsin{
+width:100%;
+font-size:medium;
+font-family: 'Times New Roman', Times, serif;
+font-style: bold;
+font-display: grid;
+background-color:  	#FAEBD7;
+font-variant:small-caps;
+height:10%;
+
+font-weight: 100px;
+
+}
+.qtsin1{
+
+  display: block;
+  width: 15%;
+  padding: 0.75rem;
+  background: grey;
+  border-radius: 2px;
+  margin:0 auto;
+  
+
+
+}
+.checkbox{
+  width:15%;
+  align-items:right;
+  font-size:20px;
+  font-style:bold;
+}
+.checkboxlabel{
+  display:inline-block;
+  width:30%;
+  font-size:20px;
+font-style:bold;
+}
+
+ 
+
+
+
+
+</style>
+</head>
+
+
+<body>
+  <div class="cont">
+
+    <h1 id="title" >covid-19 survey-form</h1>
+    <p id="description">
+                       
+     Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+    </p>
+    
+
+    <form action="/" id="survey-form">
+        
+        
+     <label for="name"   class="qts"  id="name-label"  >NAME</label>
+    
+     <br>
+
+    <input type="text"  placeholder=" enter the full name " class="qtsin" id="name"  required>
+   
+    <br>
+
+<br>
+<label for="dropdown"  class="qts" > Select the gender   </label> 
+
+<br>
+
+<select id="dropdown" for="dropdown" class="qtsin"> <option>  Male  </option>  <option> female </option> <option>  other  </option>  </select>
+
+  <br>
+    <br>
+    <label for="email"   id="email-label"   class="qts"> Email-id </label> 
+    <input type="email"  placeholder=" enter the valid email-address"  class="qtsin"  id="email"    required>
+    <br>
+
+    <br>
+    <label for="sel"   class="qts">  Have you traveled for the last several days?  </label>  
+    <br>
+    <input type="radio" id="set"  name="yes-no" class="qtstin" value="no"  class="atsin"><label class="sym">yes</label>
+      <br>                                                                                  
+    <input type="radio" id="set"  name="yes-no" class="qtstin" value="no"  class="atsin"><label class="sym">no</label>
+   
+   
+ <br>
+
+ <p  class="qts">Do you have any of these symptoms</p>
+ <label class="checkboxlabel" for="tq" >no</label><input type="checkbox"  class="checkbox"    id="tq"    name="no-fever-cough-shortness of breath" value="no"><br>
+ <label class="checkboxlabel"  for="ta" >fever</label><input type="checkbox"  class="checkbox"   id="ta"  name="fever-cough-shortness of breath"  value="fever"><br>
+ <label class="checkboxlabel"  for="tw">cough</label><input type="checkbox"  class="checkbox"   id="tw"  name="fever-cough-shortness of breath"   value="cough" ><br>
+ <label class="checkboxlabel"  for="ty" >shortness of breath</label><input type="checkbox" class="checkbox"  id="ty"name="fever-cough-shortness of breath"   value="shortness of breath"><br>
+
+  
+<br>
+
+
+<label for="number"  id="number-label" class="qts"> How many days have you been seeing these symptoms   </label>
+<input type="number"  placeholder="enter the days" class="qtsin"  id="number"   min="7"   max="15"  required>
+<br>
+
+
+<br>
+<label  for="rt"  class="qts">Any comments or suggestions?</label>
+<br>
+<textarea name="comment"  id="rt"  placeholder="Enter the comment"  class="qtsin" ></textarea>    
+<br>
+<input type="submit"  class="qtsin1"   id="submit">                                                        
+</form>
+</div>
+</body>
+
+
+
+
+</html>
