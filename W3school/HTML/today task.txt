@@ -293,7 +293,7 @@ date:22-06-2020
 5 bullet color                                                                           complete
 6 vertical line                                                                           complete
 7 dividers                                                                                 complete
-8 animate icons
-9 countdown timer
+8 animate icons                                                                       complete
+9 countdown timer                                                                 complete
 10 typewriter
     
