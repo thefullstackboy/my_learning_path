@@ -292,7 +292,7 @@ date:22-06-2020
 4 text selection color                                                             complete
 5 bullet color                                                                           complete
 6 vertical line                                                                           complete
-7 dividers                                                                                 process
+7 dividers                                                                                 complete
 8 animate icons
 9 countdown timer
 10 typewriter
