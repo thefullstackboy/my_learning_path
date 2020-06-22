@@ -288,8 +288,8 @@ date:20-06-2020
 date:22-06-2020
 1 device look                                                                           complete                      
 2 contenteditable border                                                       complete        
-3 placeholder color                                                                 process
-4 text selection color
+3 placeholder color                                                                complete
+4 text selection color                                                             process
 5 bullet color
 6 vertical line
 7 dividers
