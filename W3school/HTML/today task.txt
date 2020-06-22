@@ -286,8 +286,8 @@ date:20-06-2020
 10 hide scrollbar                                                                  complete
 
 date:22-06-2020
-1 device look                                                                           process                      
-2 contenteditable border                   
+1 device look                                                                           complete                      
+2 contenteditable border                                                       process        
 3 placeholder color
 4 text selection color
 5 bullet color
