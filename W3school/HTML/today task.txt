@@ -295,5 +295,23 @@ date:22-06-2020
 7 dividers                                                                                 complete
 8 animate icons                                                                       complete
 9 countdown timer                                                                 complete
-10 typewriter
+10 typewriter                                                                            complete
+
+date:23-06-2020
+1 coming soon page                                                                process
+2 chat messages
+3 popup chat widnow
+4 split screen
+5 testimonaials
+6 section counter
+7 quotes slideshow
+8 closable list items
+9 typical device breakpoints
+10 draggable html element
+11 js media queries
+12 syntax highlighter
+13 js animations
+14 get iframe elements
+
+               
     
