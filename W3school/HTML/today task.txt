@@ -300,8 +300,8 @@ date:22-06-2020
 date:23-06-2020
 1 coming soon page                                                                complete
 2 chat messages                                                                       complete
-3 popup chat widnow
-4 split screen
+3 popup chat widnow                                                            -----------------
+4 split screen                                                                             process
 5 testimonaials
 6 section counter
 7 quotes slideshow
