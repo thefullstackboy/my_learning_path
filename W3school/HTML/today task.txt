@@ -298,8 +298,8 @@ date:22-06-2020
 10 typewriter                                                                            complete
 
 date:23-06-2020
-1 coming soon page                                                                process
-2 chat messages
+1 coming soon page                                                                complete
+2 chat messages                                                                       complete
 3 popup chat widnow
 4 split screen
 5 testimonaials
