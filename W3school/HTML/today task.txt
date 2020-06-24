@@ -300,7 +300,7 @@ date:22-06-2020
 date:23-06-2020
 1 coming soon page                                                                complete
 2 chat messages                                                                       complete
-3 popup chat widnow                                                            -----------------
+3 popup chat widnow                                                               process
 4 split screen                                                                             complete
 5 testimonaials                                                                          complete
 6 section counter                                                                      complete
@@ -309,8 +309,8 @@ date:23-06-2020
 9 typical device breakpoints                                                     complete
 10 draggable html element                                                       complete
 11 js media queries                                                                   complete                                                         
-12 js animations                                                                        process
-13 get iframe elements
+12 js animations                                                                        complete
+
 
                
     
