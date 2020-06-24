@@ -304,8 +304,8 @@ date:23-06-2020
 4 split screen                                                                             complete
 5 testimonaials                                                                          complete
 6 section counter                                                                      complete
-7 quotes slideshow                                                                   process
-8 closable list items
+7 quotes slideshow                                                                   complete
+8 closable list items                                                                   process
 9 typical device breakpoints
 10 draggable html element
 11 js media queries
