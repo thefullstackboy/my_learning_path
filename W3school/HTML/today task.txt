@@ -308,10 +308,9 @@ date:23-06-2020
 8 closable list items                                                                   complete
 9 typical device breakpoints                                                     complete
 10 draggable html element                                                       complete
-11 js media queries
-12 syntax highlighter
-13 js animations
-14 get iframe elements
+11 js media queries                                                                   complete                                                         
+12 js animations                                                                        process
+13 get iframe elements
 
                
     
