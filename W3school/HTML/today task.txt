@@ -306,8 +306,8 @@ date:23-06-2020
 6 section counter                                                                      complete
 7 quotes slideshow                                                                   complete
 8 closable list items                                                                   complete
-9 typical device breakpoints                                                     process
-10 draggable html element
+9 typical device breakpoints                                                     complete
+10 draggable html element                                                       complete
 11 js media queries
 12 syntax highlighter
 13 js animations
