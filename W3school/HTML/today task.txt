@@ -316,8 +316,8 @@ date:25-06-2020
 2 make a websit (W3.CSS)                                                          ----------------
 3 make a website(BS3)                                                                ----------------
 4 make a website(BS4)                                                                ----------------
-5 center website                                                                            process
-6 contact section
+5 center website                                                                            complete
+6 contact section                                                                          process
 7 about page
 8 big header
 
