@@ -317,9 +317,9 @@ date:25-06-2020
 3 make a website(BS3)                                                                ----------------
 4 make a website(BS4)                                                                ----------------
 5 center website                                                                            complete
-6 contact section                                                                          process
-7 about page
-8 big header
+6 contact section                                                                          complete                                                                     
+7 about page                                                                                 -----------------
+8 big header                                                                                    process                        
 
 
 
