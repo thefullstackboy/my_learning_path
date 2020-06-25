@@ -312,10 +312,15 @@ date:23-06-2020
 12 js animations                                                                        complete
 
 date:25-06-2020
-1 make a website
-2 make a websit (W3.CSS)
-3 make a website(BS3)
-4 make a website(BS4)
+1 make a website                                                                          complete
+2 make a websit (W3.CSS)                                                          ----------------
+3 make a website(BS3)                                                                ----------------
+4 make a website(BS4)                                                                ----------------
+5 center website                                                                            process
+6 contact section
+7 about page
+8 big header
+
 
 
                
