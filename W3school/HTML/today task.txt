@@ -313,13 +313,12 @@ date:23-06-2020
 
 date:25-06-2020
 1 make a website                                                                          complete
-2 make a websit (W3.CSS)                                                          ----------------
-3 make a website(BS3)                                                                ----------------
-4 make a website(BS4)                                                                ----------------
-5 center website                                                                            complete
-6 contact section                                                                           complete                                                                     
-7 about page                                                                                    process   
-8 big header                                                                                    complete                        
+2 make a website(BS3)                                                                process
+3 make a website(BS4)                                                                ----------------
+4 center website                                                                             complete
+5 contact section                                                                            complete                                                                     
+6 about page                                                                                   complete   
+7 big header                                                                                    complete                        
 
 
 
