@@ -314,11 +314,16 @@ date:23-06-2020
 date:25-06-2020
 1 make a website                                                                            complete
 2 make a website(BS3)                                                                  complete
-3 make a website(BS4)                                                                  process 
+3 make a website(BS4)                                                                  complete 
 4 center website                                                                             complete
 5 contact section                                                                            complete                                                                     
 6 about page                                                                                   complete   
 7 big header                                                                                    complete                        
+
+date:26-06-2020
+1  2column layout                                                                          process
+2 3column layout
+3 4column layout
 
 
 
