@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Column Cards
+</title>
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding:  0 10px;
+    }
+
+    .row {
+        margin: 0 -5px;
+    }
+
+    .row:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+@media screen and(max-wirdth:600px) {
+    .column {
+        width:100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+
+
+</style>
+</head>
+<body>
+<h2>Responsive Column Cards</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <h2>Card 1</h2>
+            <p>some text...</p>
+            <p>some text...</p>
+
+
+
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <h2>Card 2</h2>
+            <p>some text...</p>
+            <p>some text...</p>
+
+
+
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <h2>Card 3</h2>
+            <p>some text...</p>
+            <p>some text...</p>
+
+
+
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <h2>Card 4</h2>
+            <p>some text...</p>
+            <p>some text...</p>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

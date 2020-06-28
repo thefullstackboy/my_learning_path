@@ -321,9 +321,10 @@ date:25-06-2020
 7 big header                                                                                    complete                        
 
 date:26-06-2020
-1  2column layout                                                                          process
-2 3column layout
-3 4column layout
+1  2column layout                                                                          complete
+2 3column layout                                                                           complete
+3 4column layout                                                                           complete
+4 Column Cards                                                                             process
 
 
 
