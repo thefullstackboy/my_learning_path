@@ -5,6 +5,34 @@
 Mixed Column Layout
 </title>
 <style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+
+}
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
 
 
 </style>  
