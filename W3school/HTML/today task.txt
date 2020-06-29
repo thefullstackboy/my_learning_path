@@ -326,7 +326,8 @@ date:26-06-2020
 3 4column layout                                                                           complete
 4 Column Cards                                                                             complete
 5 zig zag layout                                                                              complete 
-6 blog layout                                                                                   process
+6 blog layout                                                                                   complete
+7 google font                                                                                   process
 
 minimal landing pages
 
