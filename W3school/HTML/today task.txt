@@ -324,8 +324,9 @@ date:26-06-2020
 1  2column layout                                                                          complete
 2 3column layout                                                                           complete
 3 4column layout                                                                           complete
-4 Column Cards                                                                             process
-
+4 Column Cards                                                                             complete
+5 zig zag layout                                                                              complete 
+6 blog layout                                                                                   process
 
 minimal landing pages
 
