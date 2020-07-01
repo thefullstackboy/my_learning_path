@@ -327,7 +327,7 @@ date:26-06-2020
 4 Column Cards                                                                             complete
 5 zig zag layout                                                                              complete 
 6 blog layout                                                                                   complete
-7 google font                                                                                   process
+7 google font                                                                                   complete
 
 minimal landing pages
 

@@ -4,7 +4,13 @@ JavaScript is easy to learn.
 
 This tutorial will teach you JavaScript from basic to advanced.
 
-1 js comments start
+date:01-07-2020                                   status
+1 js comments                                      process
+2 js variables
+3 js operators
+4 js arithmetic
+5 js assignments
+
 
 
 
