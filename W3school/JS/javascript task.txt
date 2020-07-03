@@ -11,9 +11,10 @@ date:01-07-2020                                     status
 4 js arithmetic
 5 js assignments
 
-https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_redefine           ***
-    
-https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_undefined
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_add_strings  ********
+
+
 
 
 
