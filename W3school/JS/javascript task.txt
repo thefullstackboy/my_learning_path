@@ -12,7 +12,7 @@ date:01-07-2020                                     status
 5 js assignments
 
 
-
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_undefined
 
 
 
