@@ -6,8 +6,8 @@ This tutorial will teach you JavaScript from basic to advanced.
 
 date:01-07-2020                                     status
 1 js comments                                    complete
-2 js variables                                       process  
-3 js operators
+2 js variables                                       complete 
+3 js operators                                     process
 4 js arithmetic
 5 js assignments
 
