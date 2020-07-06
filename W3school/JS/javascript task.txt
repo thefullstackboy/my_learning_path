@@ -8,12 +8,12 @@ date:01-07-2020                                     status
 1 js comments                                    complete
 2 js variables                                       complete 
 3 js operators                                      complete
-4 js arithmetic                                     process
+4 js arithmetic                                     process            The -- Operator done
 5 js assignments
 
 
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_add_string_number
 
 
-
+Arithmetic Operations expressions
 

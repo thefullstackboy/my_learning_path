@@ -338,7 +338,7 @@ new folder "landing pages"
 
                
 website example
-1 https://www.youtube.com/watch?v=LO4YTml3IAQ&feature=youtu.be                **** 22:17
+1 https://www.youtube.com/watch?v=LO4YTml3IAQ&feature=youtu.be                **** 30:24;
 2 https://www.youtube.com/watch?v=n8lXLWi0oNc&feature=youtu.be
 3 https://www.youtube.com/watch?v=Bt7vR7M4j1k&feature=youtu.be
     
