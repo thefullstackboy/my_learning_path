@@ -1,8 +1,9 @@
  <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet"> 
-    animate__heartBeat
+     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 <title>
 Animated Website Using HTML5 
 </title>
@@ -103,6 +104,7 @@ section a {
     font-weight:  500;
     text-decoration:none;
     letter-spacing: 1px;
+    transition: all .5s ease;
 
 }
 
@@ -111,12 +113,41 @@ section .btnone{
     color: #000;
 }
 
+.btnone:hover {
+    background: #00b894;
+    color: white;
+}
 section .btntwo{
     background: #00b894;
     color: white;
 }
+.btntwo:hover {
+    background: #fff;
+    color: #000;
+}
+
+.change_content:after {
+    content: ' ';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+
+}
+
+@keyframes changetext{
+    0%{content: "Darjeeling";}
+    20% {content: "Agra";}
+    35%{content: "jaipur";}
+    60%{content: "kerla";}
+    80%{content: "delhi";}
+    100%{content: "mumbai";}
+}
 
 
+.animationduration {
+    --animate-repeat: 50;
+    
+
+}
 
 
 
@@ -126,7 +157,7 @@ section .btntwo{
 <header>
     <nav>
         <div class="logo">
-            <h1 class="">Mera Bharat</h1>
+            <h1 class="animate__heartBeat animationduration">Mera Bharat</h1>
 
 
         </div>
@@ -141,7 +172,7 @@ section .btntwo{
         <main>
             <section>
                 <h3>Welcome to india</h3>
-                <h1>DO COME & VISIT<span> </span></h1> 
+                <h1>DO COME & VISIT<span class="change_content"></span></h1> 
                 <p>"India once is not enought"</p>
                 <a href="#" class="btnone">learn more</a>
                 <a href="#" class="btntwo">signup here</a>

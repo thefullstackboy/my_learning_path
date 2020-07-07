@@ -12,7 +12,7 @@ date:01-07-2020                                     status
 5 js assignments                                 complete
 
 date:6-07-2020
-1 js data types
+1 js data types                                            process JavaScript Types are Dynamic
 2 js function
 3 js objects
 4 js events
