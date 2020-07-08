@@ -12,8 +12,8 @@ date:01-07-2020                                     status
 5 js assignments                                 complete
 
 date:6-07-2020
-1 js data types                                         "Undefined"  process process
-2 js function
+1 js data types                                         complete
+2 js function                                             process
 3 js objects
 4 js events
 5 js strings
