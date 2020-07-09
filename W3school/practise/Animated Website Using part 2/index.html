@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 <title>
  Animated website using part-2   
 </title>
 <style>
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+    }
 
+    header {
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(tej1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    nav {
+        background-color: rgba(0,0,0,0.1);
+        width: 100%;
+        color: white;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        height: 15vh;
+        }
 
+     nav.logo {
+         width: 25%;
+         text-align: center;
+
+     }   
+
+     nav.menu {
+         width:40%;
+         display: flex;
+         justify-content: space-between;
+     }
+
+    nav .menu a {
+        width: 25%;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;        
+    }
+
+    nav .menu a:first-child{
+    color: #00b894;
+}
+
+   main {
+       width: 100%;
+       text-align: center;
+       align-items: center;
+       display: flex;
+       color: white;
+       height: 85vh;
+       justify-content: center;
+
+ }
+    
 
 </style>
 </head>
 <body>
-<header>
-    <nav>
-        <div class="logo">
-            MERA BHARAT
-        </div>
-
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">GALLERY</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
-
-        </div>
-        <main>
-            <section>
-                <h3>Welcome to india</h3>
-                <h1>DO COME & VISIT<span class="change_content"></span></h1>
-                <p>"indin once is not enought"</p>
-                <a href="#">LEARN MORE</a>
-                <a href="#">SIGNUP HERE</a>
-
-
-
-
-            </section>
-        </main>
-
-
-
-
-    </nav>
-</header>
-
-
-
-
-</body>
-</html>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 class="animate__heartBeat animationduration">Mera Bharat</h1>
+    
+    
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">gallery</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+    
+            </div>
+        </nav>
+            <main>
+                <section>
+                    <h3>Welcome to india</h3>
+                    <h1>DO COME & VISIT<span class="change_content"></span></h1> 
+                    <p>"India once is not enought"</p>
+                    <a href="#" class="btnone">learn more</a>
+                    <a href="#" class="btntwo">signup here</a>
+    
+    
+                </section>
+            </main>
+    
+        
+    
+    
+    
+    </header>
+    
+    
+    
+    </body>
+    </html>
