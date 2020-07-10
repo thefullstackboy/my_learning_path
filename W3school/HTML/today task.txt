@@ -338,7 +338,12 @@ new folder "landing pages"
 
                
 website example
-1 https://www.youtube.com/watch?v=LO4YTml3IAQ&feature=youtu.be                **** 30:24;
+ https://www.youtube.com/watch?v=jlRiJYP9OJs&list=PLwGdqUZWnOp1or99dYuEnb01qCGb5lipQ              process
+ 7.51 sc1
+
+
+
+1 https://www.youtube.com/watch?v=LO4YTml3IAQ&feature=youtu.be                **** complete
 2 https://www.youtube.com/watch?v=n8lXLWi0oNc&feature=youtu.be
 3 https://www.youtube.com/watch?v=Bt7vR7M4j1k&feature=youtu.be
     
