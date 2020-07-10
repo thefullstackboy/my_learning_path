@@ -14,8 +14,8 @@ date:01-07-2020                                     status
 date:6-07-2020
 1 js data types                                          complete
 2 js function                                              complete
-3 js objects                                                process
-4 js events
+3 js objects                                                complete
+4 js events                                                  process           *must*
 5 js strings
 
 
