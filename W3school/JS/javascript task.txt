@@ -16,9 +16,9 @@ date:6-07-2020
 2 js function                                               complete
 3 js objects                                                 complete
 4 js events                                                  complete          *must*
-5 js strings                                                  process
+5 js strings    and string methods                                              process
 
-
+The trim() method removes whitespace from both sides of a string: complete
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_add_string_number
 
 
