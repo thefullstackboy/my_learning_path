@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+A string can be converted to an array with the split() method
+</title>
+<style>
+
+
+
+</style>
+</head>
+<body>
+    <p>Click "Try it" to display the first array element, after a string split.</p>
+    <button onclick="myfunction()">click me</button>
+    <p id="demo"></p>
+    <script>
+function myfunction()  {
+    var str="a,b,c,d,e,f;";
+    var arr=str.split(",");
+    document.getElementById("demo").innerHTML= arr[0];
+
+}
+
+
+    </script>
+
+
+
+</body>
+</html>
