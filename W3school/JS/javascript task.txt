@@ -16,7 +16,14 @@ date:6-07-2020
 2 js function                                               complete
 3 js objects                                                 complete
 4 js events                                                  complete          *must*
-5 js strings    and string methods                                       Extracting String Characters       process
+5 js strings    and string methods           complete
+
+date:13-07-2020
+1 js numbers
+2 js number methods
+3 js arrays
+4 js arrays methods
+5 js array sort                            
 
 
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_add_string_number
