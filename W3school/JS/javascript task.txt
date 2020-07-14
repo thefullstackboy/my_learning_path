@@ -19,8 +19,8 @@ date:6-07-2020
 5 js strings    and string methods           complete
 
 date:13-07-2020
-1 js numbers
-2 js number methods
+1 js numbers                                                  complete
+2 js number methods                                    process
 3 js arrays
 4 js arrays methods
 5 js array sort                            
