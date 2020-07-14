@@ -83,9 +83,6 @@ main {
     align-items: center;
 }
 
-.rightside {
-
-}
 
 .rightside img {
     max-width: 500px;
@@ -100,12 +97,14 @@ main {
 .leftside {
     color: #000;
     text-transform: uppercase;
+
 }
 
 .leftside h3 {
     font-size: 40px;
     margin-bottom: 20px;
     position: relative;
+    left: -30.5%;
 }
 
 .leftside h3:after {
@@ -114,7 +113,7 @@ main {
     height: 3px;
     position: absolute;
     top: 43%;
-    left: 23.6%;
+    left: 18.1%;
     background: #000;
 }
 
@@ -122,6 +121,7 @@ main {
     margin-top: 20px;
     font-size: 70px;
     margin-bottom: 25px;
+    margin-left: -32%;
 
 }
 
@@ -129,6 +129,7 @@ main {
     margin-bottom: 35px;
     font-weight: 100;
     word-spacing: 4px;
+    margin-left: -31.3%;
 }
 
 .leftside .btn1 {
@@ -146,6 +147,7 @@ main {
     background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%),radial-gradient(circle at top left,#4458dc,#854fee);
     border: double 2px transparent;
     box-shadow: 0 10px 30px rgba(118,85,225,.3);
+    margin-left: -32%;
 }
 
 .leftside .btn2 {
@@ -176,6 +178,13 @@ main {
     background-image: none;
 }
 
+.leftside .btn2:hover {
+    border:2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
 
 
  
