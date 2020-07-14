@@ -26,6 +26,10 @@ date:13-07-2020
 5 js array sort                            
 
 
+
+The toPrecision() Method           countinew 15-07-2020
+
+
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_add_string_number
 
 
