@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-headers {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+}
