@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+the user mouses over, or out of, an HTML element
+</title>
+<style>
+.abc {
+    height: 20px;
+    width: 120px;
+    background-color: #D94A38;
+    padding: 40px;
+
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="abc" onmousemove="mouseover(this)" onmouseout="mouseout(this)">
+
+</div>
+
+<script>
+function mouseover(obj) {
+    obj.innerHTML= "Thank You"
+} 
+
+function mouseout(objout) {
+    objout.innerHTML= "Mouser over me"
+}
+
+
+</script>
+
+
+
+</body>
+</html>
