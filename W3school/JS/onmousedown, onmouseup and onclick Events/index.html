@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        onmousedown, onmouseup and onclick Events
+        </title>
+        <style>
+            .abc {
+                background-color:#D94A38;
+                width:90px;
+                height:20px;
+                padding:40px;
+            }
+        </style>
+    </head>
+<body>
+
+<div onmousedown="MouseDown(this)" onmouseup="MouseUp(this)"
+class="abc">
+Click Me</div>
+
+<script>
+function MouseDown(obj) {
+  obj.style.backgroundColor = "#1ec5e5";
+  obj.innerHTML = "Release Me";
+}
+
+function MouseUp(obj) {
+  obj.style.backgroundColor="#D94A38";
+  obj.innerHTML="Thank You";
+}
+</script>
+
+</body>
+</html> 
