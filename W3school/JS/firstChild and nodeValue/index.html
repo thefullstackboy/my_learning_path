@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+firstChild and nodeValue
+</title>
+<style>
+
+
+
+</style>
+</head>
+<body>
+    <h1 id="ta">my first web page</h1>
+    <h1 id="tb"></h1>
+</body>
+
+<script>
+    document.getElementById("tb").innerHTML=
+    document.getElementById("ta").firstChild.nodeValue;
+</script>
+
+</html>
