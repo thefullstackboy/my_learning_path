@@ -23,7 +23,11 @@ date:13-07-2020
 2 js number methods                                      complete
 3 js arrays                                                         process           **"Changing an Array Element"**
 4 js arrays methods
-5 js array sort                            
+5 js array sort          
+
+upcoming targer
+Event Bubbling or Event Capturing?
+JS vs jQuery                   
 
 
 Adding Array Elements****
