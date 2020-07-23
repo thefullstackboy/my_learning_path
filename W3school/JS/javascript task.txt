@@ -25,6 +25,8 @@ date:13-07-2020
 4 js arrays methods
 5 js array sort          
 
+
+"Dom nodes"**************************************************************************************   date-23-07-2020
 upcoming targer
 Event Bubbling or Event Capturing?
 JS vs jQuery                   
