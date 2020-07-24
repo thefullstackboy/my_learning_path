@@ -25,8 +25,17 @@ date:13-07-2020
 4 js arrays methods
 5 js array sort          
 
+date:24-07-2020
+ JS vs jQuery   :-
+1 jQuery selectors         process
+2 jQuery HTML
+3 jQuery CSS
+4 JQuery DOM
 
-"Dom nodes"**************************************************************************************   date-23-07-2020
+
+
+
+done 
 upcoming targer
 Event Bubbling or Event Capturing?
 JS vs jQuery                   
