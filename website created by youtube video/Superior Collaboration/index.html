@@ -13,6 +13,7 @@ Superior Collaboration
 .topnav {
     overflow: hidden;
     background-color: #222222;
+    height: 50px;
 }
 
 .topnav a {
@@ -27,33 +28,41 @@ Superior Collaboration
 
 }
 .searchbar {
-    background-color: #222222;
-    overflow: hidden;
+
+    float: right;
     
 }
 .topnav .searchbar input[type=text] {
     float: right;
-    margin-right: 17%;
-    padding-right: 68px;
-    padding-top: 10px;
-    border-radius: 3%;
-    margin-bottom: 2%;
+    padding: 3%;
+    margin: 3px 2px;
+    box-sizing: border-box;
+    margin-right: 80%;
+    align-items: center;
+ 
+    margin-top: 5%;
 }
 
 .topnav .searchbar .sebutton{
 
   float: right;
   padding: 6px;
-  margin-top: 8px;
   background: #ddd;
   font-size: 17px;
   border: none;
   cursor: pointer;
-  right: %;
+  margin-right: 25px;
+  margin-top: -16%;
+  white-space: normal;
   
 }
-  
 
+a:hover {
+    color: red;
+}
+.topnav .active{
+    color: tomato;
+}
 
 
 </Style>
@@ -62,16 +71,18 @@ Superior Collaboration
 <header>
     <div class="topnav">
 <a href="#">Logo</a>
-<a href="#">Home</a>
+<a href="#" class="active">Home</a>
 <a href="#">About</a>
 <a href="#">Products</a>
 <a href="#">Services</a><i class="fa fa-caret-down" aria-hidden="true"></i>
 <div class="searchbar">
-    <input type="text" placeholder=""><button class="sebutton" type="submit">Search</button>
+    <input type="text" placeholder=""  name="search"><button class="sebutton" type="submit">Search</button>
 
 </div>
 
     </div>
+
+
  
 </header>
 
