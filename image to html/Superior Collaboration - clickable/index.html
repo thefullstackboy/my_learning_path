@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>
-Superior Collaboration 
+Superior Collaboration clickable dropdown
 </title>
 <Style>
  
@@ -11,10 +11,11 @@ Superior Collaboration
     margin: 0;
     box-sizing: border-box;
 }
+
 .topnav {
     overflow: hidden;
     background-color: #222222;
-    height: 
+    height: 60px;
 }
 a {
     text-decoration: none;
@@ -92,57 +93,62 @@ a:hover {
 #icon:hover {
     color: red;
 }
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
 .dropdown {
-  position: relative;
+  position: fixed;
   display: inline-block;
   text-decoration: none;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .dropdown-content {
-display: none;
-background-color: transparent;
-margin-top: 55px;
-height: 123px;
-text-decoration: none;
-position: fixed;
-text-align: center;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+margin-left: 10%;
+width: auto;
+  
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 8px;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
-  list-style: none;
-  text-align: center;
-  margin-right: 30px;
-  
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-  
- }
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  }
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-  }
-
-
-.removepoint {
   list-style-type: none;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  
 }
 
-.removepoint li {
+.dropdown a:hover {background-color: #ddd;
+width: auto;}
+
+.show {display: block;}
+ul
+{
+list-style-type: none;
 }
+
+
 </Style>
 </head>
 <body>
@@ -152,18 +158,16 @@ text-align: center;
 <a href="#" class="active">Home</a>
 <a href="#">About</a>
 <a href="#">Products</a>
-  <div class="dropdown">
-    <a>Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </a>
-    <div class="dropdown-content">
-      <ul class="removepoint">
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Services</button>
+  <div id="myDropdown" class="dropdown-content">
+    <ul>
       <li><a href="#" >Engage</a></li>
       <li><a href="#" >Pontificate</a></li>
       <li><a href="#" >Synerglze</a><li>
       </ul>
-    </div>
-  </div> 
+  </div>
+</div>
 
 
 <div class="searchbar">
@@ -178,7 +182,28 @@ text-align: center;
 
  
 </header>
-
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+  
 
 </body>
 </html>
