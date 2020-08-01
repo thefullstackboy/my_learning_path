@@ -13,9 +13,11 @@ Superior Collaboration clickable dropdown
 }
 
 .topnav {
-    overflow: hidden;
+
     background-color: #222222;
     height: 60px;
+ 
+   
 }
 a {
     text-decoration: none;
@@ -102,6 +104,8 @@ a:hover {
   border: none;
   cursor: pointer;
   margin-top: 5px;
+  display: block;
+ 
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -151,16 +155,54 @@ list-style-type: none;
   grid-template-rows: 60px;
   background: #9ACD32;
   height: 280px;
+ 
+
 }
 .green_headline{
-  font-size: 72px;
+  font-size: 69px;
   color: #ADFF2F;
-  margin-left: 10%;
-  margin-bottom: 15%;
-  bottom: 30%;
   display: flex;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#headingaling{
+  margin-left: 12%;
+  display: inline-table;
+  margin-top: 4.8%;
+}
+
+#patext {
+  font-size: 16px;
+  color: #ADFF2F;
+  margin-left: 12.5%;
+  margin-top: -130px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 26px;
+}
+.engagwbtn {
+  font-size: 14px;
+  padding: 6px;
+  margin-left: 180px;
+  margin-bottom: 10%;
+  background-color: #E1E1E1;
+
+}
+
+.engagwbtn:hover {
+  background-color: #bdbbbb;
+  font-size: 14.5px;
+}
+.container {
+  margin-left: 8%;
+  font-size: 20px;
+
+}
+.container2 {
+  margin-bottom: 23%;
+  margin-left: 38%;
+  display: flex;
+
 }
 
 
@@ -169,18 +211,18 @@ list-style-type: none;
 <body>
 <header>
     <div class="topnav">
-<a href="#">Logo</a>
-<a href="#" class="active">Home</a>
-<a href="#">About</a>
-<a href="#">Products</a>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Services</button>
-  <div id="myDropdown" class="dropdown-content">
-    <ul>
-      <li><a href="#" >Engage</a></li>
-      <li><a href="#" >Pontificate</a></li>
-      <li><a href="#" >Synerglze</a><li>
-      </ul>
+    <a href="#">Logo</a>
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Products</a>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Services</button>
+      <div id="myDropdown" class="dropdown-content">
+        <ul>
+          <li><a href="#" >Engage</a></li>
+          <li><a href="#" >Pontificate</a></li>
+          <li><a href="#" >Synerglze</a><li>
+          </ul>
   </div>
 </div>
 
@@ -195,12 +237,55 @@ list-style-type: none;
     </div>
 
     <div class="green_container">
-      <h1 class="green_headline">Dramatically Engage</h1>    </div>
-      <strong>Objectively innovate empowered manufactured products whereas parallel platforms.</strong>
-      <button>Engage Now</button>
+      <h1 class="green_headline" id="headingaling">Dramatically Engage</h1></div>
+      <p id="patext"><b>Objectively innovate empowered manufactured products whereas parallel platforms.</b></p>
+      <button class="engagwbtn">Engage Now</button>
 
+      <div class="container">
+        <h1><b>Superior Collaboration</b></h1>
+      </div>
+        <div>
+          <h2 class="container2">Visualize Quality</h2>
+        </div>
+        <hr>
+      
+<div>
+  <p><b>Proactively envisioned multimedia based expertise and cross-media growth strategies. 
+    Seamlessly visualize quality intellectual capital without superior collaboration and idea
+    -sharing. Holistically pontificate installed base portals after maintainable products.
+  </b></p>
+</div>
+<div>
+  <div>
 
+  <h1>700*300</h1>
+  <h1>Efficiently Unleash</h1>
+  <p><b>Collaboratively administrate empowered markets via plug-and-play networks.
+    Dynamically procrastinate B2C users after installed base benefits. Dramatically
+     visualize customer directed convergence without revolutionary ROI.
+    </b></p>
 
+  <div>
+
+  </div>
+  <h1>700*300</h1>
+  <h1>Completely Synergize</h1>
+  <p><b>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+     Efficiently unleash cross-media information without cross-media value.
+      Quickly maximize timely deliverables for real-time schemas.
+    </b></p>
+  <div>
+
+  </div>
+  <h1>700*300</h1>
+  <h1>Dynamically Procrastinate</h1>
+  <p><b>Professionally cultivate one-to-one customer service with robust ideas.
+     Completely synergize resource taxing relationships via premier niche markets.
+      Dynamically innovate resource-leveling customer service for state of the art
+       customer service.
+      </b></p>
+</div>
+</div>
 
  
 </header>
