@@ -328,7 +328,11 @@ date:26-06-2020
 5 zig zag layout                                                                              complete 
 6 blog layout                                                                                   complete
 7 google font                                                                                   complete
-   
+
+
+ 
+
+  
 practice:https://www.quackit.com/html/templates/simple_website_templates.cfm
 
 https://www.quackit.com/html/templates/download/bootstrap/corporate-1/index.html       date-27-07-2020  website
