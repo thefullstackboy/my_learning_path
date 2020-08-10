@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>
 gohugo.io
 </title>
@@ -10,7 +11,7 @@ gohugo.io
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        overflow: hidden;
+      
 
     }
 
@@ -91,9 +92,93 @@ nav a:hover {
     line-height: 40px;
 }
 
+#downicon {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: table;
+  margin-left: 10%;
+  margin-bottom: 0%;
+  margin-top: 19%;
 
 
+}
 
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.paredit {
+float: left;
+margin-left: 26%;
+margin-top: 20%;
+
+}
+
+.paredit h2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   font-size: 36px;
+   line-height: 35px;
+   color: #1C2D41;
+}
+
+.paredit h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    word-spacing: 6px;
+    font-size: 20px;
+    color: #1C2D41;
+}
+
+.paredit .blueline {
+    color: #2497C3;
+}
+
+.paredit .blueline:hover {
+    text-decoration: underline;
+}
+.paredit p {
+    font-size: 18px;
+    word-spacing: 8px;
+    line-height: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #404C58;
+    letter-spacing: 1px;
+    margin-top: 3%;
+}
+
+.fontsize {
+    font-size: 26px;
+    color: #3C4858;
+    word-spacing: 4px;
+    margin-top: 3.6%;
+}
+
+.fontsize a:hover {
+    color: #2497C3;
+    transition: 0.5s;
+} 
+
+ .resumebtn{
+    padding: 6px;
+    font-size: 17px;
+    background-color: #3C4858;
+    color: #F0EFE2;
+    border-radius: 3px;
+    border: 3px;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+}
+
+.resumebtn:hover {
+    background-color: #2497C3;
+    transition: 0.5s;
+}
 
 </style>
 </head>
@@ -125,25 +210,59 @@ nav a:hover {
                 
                     <img src="image/avatar.png" id="im">
                     <h2 id="im2">Hi, I am Jane </h2>
+                     
+                    <div id="downicon">
+                           <i class="fa fa-chevron-down"></i>
+                    </div>
+                 
+
     
              
       
 
             </div>
-              
+          
            
     
-
-      
-
-
-
-
     </div>
         
     
 </nav>
-
+<div class="row">
+    <div class="paredit">
+        <h2>Jane Doe</h2>
+    <br>
+        <h3>Software Engineer at <span class="blueline">Example Co.</span></h3>
+        <p>
+            I am a passionate software engineer with x years of working. 
+            <br>      
+             experience. I built OSS tools for Kubernetes using GO. My tools help
+             <br>
+             people to deploy their workloads in Kubernetes. Sometimes, I work
+             <br>
+             on some fun projects such as writing a theme, etc. 
+         </p>
+         <div class="fontsize">
+            <a><i class="fa fa-envelope"></i></a>
+            <a><i class="fa fa-github"></i></a>
+            <a><i class="fa fa-folder-open-o"></i></a>
+            <a><i class="fa fa-linkedin-square"></i></a>
+            <a><i class="fa fa-twitter"></i></a>
+            <a><i class="fa fa-facebook-square"></i></a>
+            </div>
+  
+         <br>
+         <button type="button" class="resumebtn">My Resume</button>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+</div>
 
 
 

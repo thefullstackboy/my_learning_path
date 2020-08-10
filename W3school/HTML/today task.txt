@@ -329,7 +329,7 @@ date:26-06-2020
 6 blog layout                                                                                   complete
 7 google font                                                                                   complete
 
-
+https://themes.gohugo.io/theme/toha/                              "current practies"
  
 
   
