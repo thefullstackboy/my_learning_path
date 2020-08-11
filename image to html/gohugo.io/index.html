@@ -180,6 +180,78 @@ margin-top: 20%;
     transition: 0.5s;
 }
 
+.skbg {
+    background-color: #E5E9F2;
+ 
+
+}
+#skfont {
+    font-size: 45px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #1C2D41;
+    margin: 3%;
+ 
+  
+ }
+
+ .flex-container {
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #E5E9F2;
+ }
+
+ .flex-container > div {
+     background-color: #F9FAFC;
+     width: 340px;
+     height: 410px;
+     margin: 20px;
+     margin-left: 5%;
+     margin-right: 1%;
+     align-items: center;
+     justify-content: center;
+      line-height: 75px;
+     
+ }
+ .flex-container > div:hover {
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.5s;
+}
+
+.rowhead {
+    text-align: left;
+    float: left;
+    margin-left: 2%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.rowpar {
+    font-size: 22px;
+    margin-left: 3%;
+    margin-right: 2.5%;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #3C485C;
+    margin-top: 2%;
+    word-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imageedit {
+    height: 10%;
+    width: 10%;
+    float: left;
+    margin-left: 3.2%;
+    margin-top: 4%;
+    
+}
+
+
 </style>
 </head>
 <body>
@@ -230,39 +302,150 @@ margin-top: 20%;
 </nav>
 <div class="row">
     <div class="paredit">
-        <h2>Jane Doe</h2>
-    <br>
-        <h3>Software Engineer at <span class="blueline">Example Co.</span></h3>
-        <p>
-            I am a passionate software engineer with x years of working. 
-            <br>      
-             experience. I built OSS tools for Kubernetes using GO. My tools help
-             <br>
-             people to deploy their workloads in Kubernetes. Sometimes, I work
-             <br>
-             on some fun projects such as writing a theme, etc. 
-         </p>
-         <div class="fontsize">
-            <a><i class="fa fa-envelope"></i></a>
-            <a><i class="fa fa-github"></i></a>
-            <a><i class="fa fa-folder-open-o"></i></a>
-            <a><i class="fa fa-linkedin-square"></i></a>
-            <a><i class="fa fa-twitter"></i></a>
-            <a><i class="fa fa-facebook-square"></i></a>
-            </div>
-  
-         <br>
-         <button type="button" class="resumebtn">My Resume</button>
-    
-    
-    
-    
-    
-    
+                <h2>Jane Doe</h2>
+            <br>
+                <h3>Software Engineer at <span class="blueline">Example Co.</span></h3>
+                <p>
+                    I am a passionate software engineer with x years of working. 
+                    <br>      
+                    experience. I built OSS tools for Kubernetes using GO. My tools help
+                    <br>
+                    people to deploy their workloads in Kubernetes. Sometimes, I work
+                    <br>
+                    on some fun projects such as writing a theme, etc. 
+                </p>
+                <div class="fontsize">
+                                    <a><i class="fa fa-envelope"></i></a>
+                                    <a><i class="fa fa-github"></i></a>
+                                    <a><i class="fa fa-folder-open-o"></i></a>
+                                    <a><i class="fa fa-linkedin-square"></i></a>
+                                    <a><i class="fa fa-twitter"></i></a>
+                                    <a><i class="fa fa-facebook-square"></i></a>
+                                    </div>
+                        
+                        <br>
+                        <button type="button" class="resumebtn">My Resume</button>
+              </div>
+                
     
     </div>
+ 
+ 
+ 
+
     
 </div>
+<div class="skbg">
+    <h2 id="skfont">Skills</h2>
+    <div class="flex-container">
+        <div>
+            <img src="language icon/kubernetes.png" class="imageedit">
+            <h6 class="rowhead">Kubernetes</h6>
+            <hr style="margin-top: 60%;" style="color: #DADBDC;">
+            <p class="rowpar">Capable of deploying, managing 
+                <br>
+                application on Kubernetes. Experienced in
+                <br>
+                Writing Kubernetes controllers for CEDs. </p>
+
+       </div>
+
+
+        <div>
+            <img src="language icon/go.png" class="imageedit">
+            <h6 class="rowhead">Go Development</h6>
+            <hr style="margin-top: 60%;">
+            <p class="rowpar">Capable of deploying, managing 
+                <br>
+                application on Kubernetes. Experienced in
+                <br>
+                Writing Kubernetes controllers for CEDs. </p>
+
+       </div>
+
+
+          <div>
+            <img src="language icon/cloud.png" class="imageedit">
+            <h6 class="rowhead">Colud Computing</h6>
+            <hr style="margin-top: 60%;">
+            <p class="rowpar">Capable of deploying, managing 
+                <br>
+                application on Kubernetes. Experienced in
+                <br>
+                Writing Kubernetes controllers for CEDs. </p>
+
+       </div>
+
+       <div>
+        <img src="language icon/docker.svg" class="imageedit">
+        <h6 class="rowhead">Docker</h6>
+        <hr style="margin-top: 60%;">
+        <p class="rowpar">Capable of deploying, managing 
+            <br>
+            application on Kubernetes. Experienced in
+            <br>
+            Writing Kubernetes controllers for CEDs. </p>
+
+   </div>
+
+             <div>
+                <img src="language icon/prometheus.png" class="imageedit">
+            <h6 class="rowhead">Prometheus</h6>
+            <hr style="margin-top: 60%;">
+            <p class="rowpar">Capable of deploying, managing 
+                <br>
+                application on Kubernetes. Experienced in
+                <br>
+                Writing Kubernetes controllers for CEDs. </p>
+
+       </div>
+
+             <div>
+                <img src="language icon/linux.png" class="imageedit">
+            <h6 class="rowhead">Linux</h6>
+            <hr style="margin-top: 60%;">
+            <p class="rowpar">Capable of deploying, managing 
+                <br>
+                application on Kubernetes. Experienced in
+                <br>
+                Writing Kubernetes controllers for CEDs. </p>
+
+       </div>
+
+      <div>
+        <img src="language icon/git.png" class="imageedit">
+            <h6 class="rowhead">Git</h6>
+            <hr style="margin-top: 60%;">
+            <p class="rowpar">Capable of deploying, managing 
+                <br>
+                application on Kubernetes. Experienced in
+                <br>
+                Writing Kubernetes controllers for CEDs. </p>
+
+       </div>
+
+
+       <div>
+        <img src="language icon/c++.png" class="imageedit">
+        <h6 class="rowhead">C++</h6>
+        <hr style="margin-top: 60%;">
+        <p class="rowpar">Capable of deploying, managing 
+            <br>
+            application on Kubernetes. Experienced in
+            <br>
+            Writing Kubernetes controllers for CEDs. </p>
+
+   </div>
+
+    </div>
+</div>
+
+    
+
+
+
+ 
+
 
 
 
