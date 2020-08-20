@@ -390,7 +390,7 @@ color: white;
 }
 
 .bggrey2 {
-    height: 450px;
+    height: 650px;
     background-color: #E5E9F2;
     width: 100%;
 
@@ -407,40 +407,142 @@ color: white;
     font-weight: lighter;
 }
 
-.bgatag {
-    border-radius: 4px;
-    height: 60px;
-    background-color:#3C4858;
-    padding:7px;
+.bagroundgrey {
+    background-color: #3C4858;
+    border-radius: 6px;
+    padding: 16px 0px;
+    width: 299px;
+    margin-left: 39.5%;
+    margin-top:0.60%;
 
-  
 }
 
-.tagcolor {
+.bagroundgrey a {
     text-align: center;
     align-items: center;
     justify-items: center;
-    padding:8px 12px;
-    text-decoration:none;
-    width: 20%;
-    margin-left: 39.85%;
-    border-radius: 8px;
-    word-spacing: 3.8px;
-    margin-top:1.5%;
+    margin-left:3%;
+    text-decoration: none;
+    color: white;
+}
+.bagroundgrey > span {
+    padding:16px 0px;
+    padding-right:10px;
+}
+
+.bagroundgrey > span:hover {
+background-color: #248AAA;
+}
+
+
+
+
+
+.flex-container2 {
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #E5E9F2;
+ }
+
+ .flex-container2 > div {
+     background-color: #F9FAFC;
+     width: 370px;
+     height: 170px;
+     margin: 10px;
+     margin-left: 10%;
+     margin-right: -9%;
+    
+      line-height: 75px;
+     
+ }
+ .flex-container2 > div:hover {
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.5s;
+}
+
+.rowhead2 {
+    text-align: left;
+    float: left;
+    margin-left: 1%;
+    margin-top: -5%;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
-  
+}
+.rowpar2 {
+    font-size: 18px;
+    margin-left: 3%;
+    margin-right: 2.5%;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #3C485C;
+    margin-top: 1%;
+    word-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.atagcolor {
-     color: white;
-     text-decoration: none;
+.imageedit2 {
+    height: 10%;
+    width: 8%;
+    float: left;
+    margin-left: 3.2%;
+    margin-top: 3%;
+    
 }
 
-.bgatag a:hover {
-    background-color: #248AAA;
-    height: auto;
-    width: auto;
-    }
+.conedit {
+    font-size: 14px;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-left: -36%;
+    color:#3C4858;
+}
+
+.conedit2 {
+    font-size: 14px;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-left: 27%;
+    color:#3C4858;
+} 
+
+.border1 {
+    border:1px solid #E0E1E2;
+    width: 100%;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    margin-top:17%;
+    
+}
+
+.rowpar3 {
+    font-size: 18px;
+    margin-left: 3%;
+    margin-right: 2.5%;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #3C485C;
+    margin-top: 1%;
+    word-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.flex-container2 >.inwb {
+    background-color: #F9FAFC;
+     width: 370px;
+     height: 270px;
+     margin: -160px;
+     margin-left: 10%;
+     margin-right: -9%;
+     margin-top:0.80%;
+    
+      line-height: 75px;
+}
+
 
 
 
@@ -723,15 +825,75 @@ color: white;
         
         <h1>Projects</h1>
         <div class="tagcolor">
-            <span class="bgatag">
-         <a href="#" class="atagcolor">All</a>
-         <a href="#" class="atagcolor">Professional</a>
-         <a href="#" class="atagcolor">Academic</a>
-         <a href="#" class="atagcolor">Hobby</a>
-        
-        
-        </span>
-    </div>
+             
+            <div class="bagroundgrey">
+                <span><a href="#">All</a></span>
+                <span><a href="#">Professional</a></span>
+                <span><a href="#">Academic</a></span>
+                <span><a href="#">Hobby</a></span>
+
+                                
+                        </div>
+                
+                        
+                    
+                    </div>
+                
+                    <div class="flex-container2">
+                        <div>
+                            <img src="language icon/kubernetes.png" class="imageedit2">
+                            <h6 class="rowhead2">Kubernetes</h6>
+                            <p class="conedit">Contributor</p>
+                            <p class="conedit2">March 2018-Present</p>
+                            <div class="border1"></div>
+                                <p class="rowpar2">Production-Grade Container Scheduling and Management.</p>
+                            </div>
+
+                            <div>
+                                <img src="language icon/kubernetes.png" class="imageedit2">
+                                <h6 class="rowhead2">Kubernetes</h6>
+                                <p class="conedit">Contributor</p>
+                                <p class="conedit2">March 2018-Present</p>
+                                <div class="border1"></div>
+                                    <p class="rowpar2">Production-Grade Container Scheduling and Management.</p>
+                                </div>
+
+                                <div class="inwb">
+                                    <img src="language icon/kubernetes.png" class="imageedit2">
+                                    <h6 class="rowhead2">Kubernetes</h6>
+                                    <p class="conedit">Team Lead</p>
+                                    <p class="conedit2">Jan 2017-Nov 2017</p>
+                                    <div class="border1"></div>
+                                        <p class="rowpar3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum.
+                                             Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi
+                                            </p>
+                                    </div>
+
+                                    <div>
+                                        <img src="language icon/kubernetes.png" class="imageedit2">
+                                        <h6 class="rowhead2">Kubernetes</h6>
+                                        <p class="conedit">Contributor</p>
+                                        <p class="conedit2">March 2018-Present</p>
+                                        <div class="border1"></div>
+                                            <p class="rowpar2">Production-Grade Container Scheduling and Management.</p>
+                                        </div>
+                     
+                                        <div>
+                                            <img src="language icon/kubernetes.png" class="imageedit2">
+                                            <h6 class="rowhead2">Kubernetes</h6>
+                                            <p class="conedit">Contributor</p>
+                                            <p class="conedit2">March 2018-Present</p>
+                                            <div class="border1"></div>
+                                                <p class="rowpar2">Production-Grade Container Scheduling and Management.</p>
+                                            </div>
+                       </div>
+                
+                
+                      
+          
+             
+                
     </div>
 
 
