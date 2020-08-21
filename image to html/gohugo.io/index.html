@@ -579,7 +579,12 @@ background-color: #248AAA;
     text-align: center;
   font-size: 30px;
   width:360px;
-  height: 450px;
+  height: 470px;
+}
+
+ .grid-container3 > div:hover {
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.5s;
 }
 
 .imgeditsetup {
@@ -593,6 +598,46 @@ background-color: #248AAA;
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.1); 
+}
+
+.grid-container3>div>p {
+    margin-top:30px;
+    font-size:20px;
+    font-weight: lighter;
+    color: #4A4E58;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 3%;
+}
+
+.grid-container3>div>p.dateedit {
+    font-size:14px;
+    float: left;
+    margin-left: 1%;
+    margin-top:13%;
+    border: 2px solid #DFDFDF;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    width: 100%;
+    text-align:left;
+}
+
+.readbtn {
+    background: transparent;
+    padding:6px;
+    font-size: 14px;
+    border:1px solid #2098D1;
+    color:#2098D1;
+    border-radius: 4px;
+     margin-left: 83%;
+    margin-top:-6%;
+    
+}
+
+.readbtn:hover {
+    background-color: #2098D1;
+    color: white;
+    translate: 2s;
 }
 
 
@@ -953,15 +998,42 @@ background-color: #248AAA;
         <div class="grid-container3">
             <div>
                 <img src="image/computersetup.jpg" class="imgeditsetup">
+                <h5>Markdown Syntax Guide</h5>
+
+                <p>
+                    This article offers a sample of basic Markdown syntax that can
+                    be used in Hugo Content files, also it shows  whether basic HTML elements
+                    are decorated with CSS in a Hugo theme.
+                </p>
+                <p class="dateedit">March 11, 2019</p>
+                <button type="button" class="readbtn">Read</button>
 
             </div>
 
             <div>
-                2
+                <img src="image/computersetup.jpg" class="imgeditsetup">
+                <h5>Markdown Syntax Guide</h5>
+
+                <p>
+                    This article offers a sample of basic Markdown syntax that can
+                    be used in Hugo Content files, also it shows  whether basic HTML elements
+                    are decorated with CSS in a Hugo theme.
+                </p>
+                <p class="dateedit">March 11, 2019</p>
+                <button type="button" class="readbtn">Read</button>
             </div>
 
             <div>
-                3
+                <img src="image/computersetup.jpg" class="imgeditsetup">
+                <h5>Markdown Syntax Guide</h5>
+
+                <p>
+                    This article offers a sample of basic Markdown syntax that can
+                    be used in Hugo Content files, also it shows  whether basic HTML elements
+                    are decorated with CSS in a Hugo theme.
+                </p>
+                <p class="dateedit">March 11, 2019</p>
+                <button type="button" class="readbtn">Read</button>
             </div>
 
         </div>
