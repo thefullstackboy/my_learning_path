@@ -1,57 +1,94 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!DOCTYPE html>
+ <html>
+   <head>
+   <title>
+
+
+   </title>
 <style>
-* {box-sizing: border-box;}
 
-.container {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
+* {
+  box-sizing: border-box;
 }
 
-.image {
-  display: block;
-  width: 580px;
-  height:330px;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 85px;
+  height: 400px;
+  margin-top:-5%;
+  background-color: #1C2D41;
+  color: #8390A1;
+  font-size: 16px;
 }
 
-.overlay {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
-  width: 193%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 26px;
-padding:14px;
-  text-align: center;
-  align-items: center;
-  justify-items: center;
-
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 
 }
 
-.container:hover .overlay {
-  opacity: 1;
+.row>.column>h4{
+  color:#C0C9B5;
 }
+
+.row>.column>h5 {
+  color:#C0C1BA;
+  font-size: 14px;
+}
+
+input[type=text]{
+color: black;
+background-color: #C0CCDA;
+font-size: 18px;
+padding: 4px 17px;
+cursor: pointer;
+text-align: center;
+
+}
+
+
+
 </style>
-</head>
-<body>
+   </head>
+   <body>
+     <div class="row">
+       <div class="column">
+         
+<h4>Navigation</h6>
 
-<h2>Image Overlay Title</h2>
-<p>Hover over the image to see the effect.</p>
+<p>About</p>
+<p>Skills</p>
+<p>Experiences</p>
+<p>Projects</p>
+<p>Recent Posts</p>
+<p>Achievements</p>
+       </div>
 
-<div class="container">
-  <img src="photo1.png" alt="Avatar" class="image">
-  <div class="overlay">Best Presenter</div>
-</div>
+       <div class="column">
+         
+<h4>Contact Me</h4>
+
+<p>Email: janedoe@example.com</p>
+<p>Phone: +0123456789</p>
 
 
 
-</body>
-</html>
+       </div>
+
+       <div class="column">
+         <h5>Stay up to date with email notification</h5>
+         <input type="text" placeholder="Enter email" name="text" >
+         <p>We'll never share your email with anyone else.</p>
+         <button class="submitbtn" type="submit">Submit</button>
+
+       </div>
+
+
+     </div>
+
+
+
+   </body>
+  </html>
