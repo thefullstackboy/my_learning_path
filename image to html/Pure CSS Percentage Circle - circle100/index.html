@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ Pure CSS Percentage Circle - circle100
+</title>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+     
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+.radialProgressBar {
+    border-radius: 50%;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    width: 150px;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #048DFF;
+    margin: 20px;
+    float: left;
+}
+
+.radialProgressBar .overlay {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    background: #3C4858;
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 19px;
+}
+
+.progress-80 {
+    background-image: -webkit-linear-gradient(left, #028cd5 50%, transparent 50%), -webkit-linear-gradient(18deg, #028cd5 50%, #FFFFFF 50%);
+  background-image: linear-gradient(255deg, #028cd5 50%, transparent 50%), linear-gradient(25deg, #028cd5 50%, #FFFFFF 50%);
+}
+
+
+</style>
+</head>
+<body>
+
+    <div class="rt-container">
+    <div class="radialProgressBar progress-80">
+        <div class="overlay">Leadership</div>
+      </div>
+    </div>  
+
+
+
+
+
+</body>
+</html>
