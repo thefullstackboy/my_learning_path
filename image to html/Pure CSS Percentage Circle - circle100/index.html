@@ -10,11 +10,15 @@
     margin: 0;
     padding: 0;
 }
-     
+
+  .background-colorwhite {
+      background-color: #FFFFFF;
+  }   
 body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
 }
@@ -47,22 +51,98 @@ body {
 
 .progress-80 {
     background-image: -webkit-linear-gradient(left, #028cd5 50%, transparent 50%), -webkit-linear-gradient(18deg, #028cd5 50%, #FFFFFF 50%);
-  background-image: linear-gradient(255deg, #028cd5 50%, transparent 50%), linear-gradient(25deg, #028cd5 50%, #FFFFFF 50%);
+  background-image: linear-gradient(270deg, #028cd5 50%, transparent 50%), linear-gradient(25deg, #028cd5 50%, #FFFFFF 50%);
 }
 
+.radialProgressBar2 {
+    border-radius: 50%;
+    background: #ED63D2;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    width: 150px;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+    float: left;   
+}
+
+.radialProgressBar2 .overlay {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    background: #3C4858;
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 19px;
+}
+
+.progress-81 {
+    background-image: -webkit-linear-gradient(left, #EEBB4D 50%, transparent 50%), -webkit-linear-gradient(18deg, #EEBB4D 50% #FFFFFF 50%);
+    background-image: linear-gradient(270deg, #EEBB4D 50%, transparent 50%), linear-gradient(25deg, #EEBB4D 50%, #FFFFFF 50%);
+
+}
+
+
+
+.radialProgressBar3 {
+    border-radius: 50%;
+    background: #EEBB4D;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    width: 150px;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+    float: left;   
+}
+
+.radialProgressBar3 .overlay {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    background: #3C4858;
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+    font-size: 17px;
+}
+
+.progress-82 {
+    background-image: -webkit-linear-gradient(left, #ED63D2 50%, transparent 50%), -webkit-linear-gradient(18deg, #ED63D2 50% #FFFFFF 50%);
+    background-image: linear-gradient(270deg, #ED63D2 50%, transparent 50%), linear-gradient(25deg, #ED63D2 50%, #FFFFFF 50%);
+
+}
 
 </style>
 </head>
 <body>
-
-    <div class="rt-container">
+<div class="background-colorwhite">
     <div class="radialProgressBar progress-80">
         <div class="overlay">Leadership</div>
       </div>
-    </div>  
+     
+
+    <div class="radialProgressBar2 progress-81">
+        <div class="overlay">Team Work</div>
+      </div>
 
 
+      <div class="radialProgressBar3 progress-82">
+        <div class="overlay">Communication</div>
+      </div>
+    <div class="radialProgressBar4 pro">
 
+        <br>
+    </div>
+
+    </div>
 
 
 </body>
