@@ -10,13 +10,61 @@
      height: 544px;
     width: 100%;
     border: 2px solid black;
+      /*  flex-wrap: wrap;
+    flex-flow: row-reverse wrap;
 
+  */  
+  /*
+  flex-direction: row;
+  
+  /*flex-wrap: wrap;
+  /*
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+*/
+/*
+align-items: center;
+align-items: flex-end;
+align-items: flex-start;
+align-items: stretch;
+*/
 }
 .item {
+    height: 200px;
     width: 200px;
-    
+    background-color: tomato;
+    border:2px solid green;
+    margin: 10px;
+    padding: 3px;
+
+
+    /*flex direction*/
+
+
+    /*
+    Defualt value row  
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    */
+}
+#item-1 {
+order: 3;
+flex-grow: 2;
+flex-shrink: 2;
 }
 
+#item-2 {
+ order:2;  
+ flex-grow: 3;
+ flex-shrink: 3;
+ flex-basis: 200px;
+}
+
+#item-3 {
+    order: 1;
+    flex: 2 2 300px;
+}
 
 </style>
 </head>
@@ -26,10 +74,11 @@
     <div class="item" id="item-1">First Box</div>
     <div class="item" id="item-2">Second Box</div>
     <div class="item" id="item-3">Thired Box</div>
+    <!--
     <div class="item" id="item-4">Fourth Box</div>
     <div class="item" id="item-5">Fiveth Box</div>
     <div class="item" id="item-6">Sixth Box</div>
-
+-->
 
 
 </div>

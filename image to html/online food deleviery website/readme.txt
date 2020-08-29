@@ -1,0 +1,1 @@
+I made this website from the help of Code With Harry youtube channel, I learned to use Smooth Scroll bar, flex-box, contact-form, before CSS and how to make a website responsive. This website is accessible from a mobile device too.
