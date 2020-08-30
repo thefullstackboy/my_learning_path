@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../image/image1.jpg')
+}
+
+.left {
+    border: 2px solid red;
+}
+
+.mid {
+    border: 2px solid green;
+}
+
+.right {
+    border: 2px solid yellow;
+}
