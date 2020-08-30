@@ -329,6 +329,9 @@ date:26-06-2020
 6 blog layout                                                                                   complete
 7 google font                                                                                   complete
 
+https://www.youtube.com/watch?v=Sj5NX_br5WY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=26 19.53
+
+
 https://themes.gohugo.io/theme/toha/                              "current practies"
  
 

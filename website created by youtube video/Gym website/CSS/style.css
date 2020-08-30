@@ -1,17 +1,45 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url('../image/image1.jpg')
+    background: url('../image/image1.jpg');
+    color:white;
+
 }
 
 .left {
     border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    left:34px;
+    top:20px
 }
 
 .mid {
     border: 2px solid green;
+    display: block;
+    margin: 20px auto;
+    width: 33%;
 }
 
 .right {
     border: 2px solid yellow;
+    position: absolute;
+    right: 34px;
+    top:20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration:none;
+    padding: 34px 23px;
 }
