@@ -329,6 +329,10 @@ date:26-06-2020
 6 blog layout                                                                                   complete
 7 google font                                                                                   complete
 
+
+https://themes.gohugo.io/theme/hugo-frances-theme/             "cureent 1-09-2020 start date"
+
+
 https://www.youtube.com/watch?v=Sj5NX_br5WY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=26 19.53
 
 
@@ -381,4 +385,11 @@ https://www.youtube.com/watch?v=HM4IkalK2iQ&list=PLwGdqUZWnOp1xJWvy3dkkKEh65MvyW
 1 https://www.youtube.com/watch?v=LO4YTml3IAQ&feature=youtu.be                **** complete
 2 https://www.youtube.com/watch?v=n8lXLWi0oNc&feature=youtu.be
 3 https://www.youtube.com/watch?v=Bt7vR7M4j1k&feature=youtu.be
+
+
+
+
+git reset process:
+1 git log
+2 git reset --hard "commit id"
     
