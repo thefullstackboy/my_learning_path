@@ -400,3 +400,41 @@ git reset process:
 1 git log
 2 git reset --hard "commit id"
     
+
+
+  <main>
+            <i class="fas fa-quote-left"></i>
+             <p>
+                Be fearful when others are greedy
+                and to be greedy only when others are fearful.
+                Be fearful when others are greedy and to be greedy only when others are fearful. 
+                Be fearful when others are greedy and to be greedy only when others are fearful. 
+                Be fearful when others are greedy and to be greedy only when others are fearful. 
+             </p>
+             <i class="fas fa-quote-right"></i>
+        </main>
+
+
+
+
+
+
+
+
+
+
+  position: absolute;
+  bottom: -95%;
+  left: 50%; 
+align-items: center;
+  text-align: center;
+  justify-content: center;
+  transform: translate(-50%, -50%); 
+  display: flex;
+  padding-top: -6%;
+  color: #E78628;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  flex-direction: row;
+  width: 100%;
