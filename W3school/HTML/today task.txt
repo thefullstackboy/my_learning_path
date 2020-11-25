@@ -330,6 +330,37 @@ date:26-06-2020
 7 google font                                                                                   complete
 
 
+Bootstrap example:
+1 Album  complete    complete
+2 check out                 complete
+3 sign-in                       complete
+4 cover                         complete
+5 carousel                    complete
+6 blog                            complete
+7 dashboard                  complete
+8 sticky footer                 complete
+9 sticky footer navbar    complete
+10 pricing                         complete
+11 product                        complete
+
+"Framework"
+1 starter template            complete
+2 Grid                                 padding-------****------
+3 Jumbotron                     complete
+
+"Navbar"
+1 Navbars                           complete
+2 Navbar static                   complete
+3 Navbar fixed                    complete
+4 Navbar bottom                complete
+
+Experiments
+1 Floating labels              complete
+2 Offcanvas                       complete
+
+
+
+
 
 https://www.codingninjas.com/courses/online-competitive-programming-course?campaign=google_youtube_competitive-programming_prosp_24-02-20&source=youtube&utm_source=google&utm_medium=%5Bdisplay%5D&utm_campaign=9485482736_97514122078___none_420641471031_c&gclid=CjwKCAjwtNf6BRAwEiwAkt6UQgWc3nEeT2j7zmFtWgqEgbmLQwk8dZul57jPlqPauGD77MqPLum5vRoCB-YQAvD_BwE
 
@@ -399,7 +430,12 @@ https://www.youtube.com/watch?v=HM4IkalK2iQ&list=PLwGdqUZWnOp1xJWvy3dkkKEh65MvyW
 git reset process:
 1 git log
 2 git reset --hard "commit id"
-    
+
+git reset process:
+1 git log
+2 git reset --hard "commit id"
+        
+
 
 
   <main>
