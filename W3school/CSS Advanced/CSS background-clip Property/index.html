@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS background-clip Property
+        </title>
+        <style>
+
+            .example1 {
+                border: 10px dotted black;
+                padding: 35px;
+                background: yellow;
+            }
+
+            .example2 {
+                border: 10px dotted black;
+                padding: 35px;
+                background: yellow;
+                background-clip: padding-box;
+            }
+
+            .example3 {
+                background-color: yellow;
+                padding: 35px;
+                background-clip: content-box;
+                border: 10px dotted black;
+            }
+
+            
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>The background-clip Property</h1>
+        <p>No background-clip(border-box is default)</p>
+                   
+        <div class="example1">
+            <h1>Lorem Ipsum Dolor</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+
+        <p>background-clip: padding-box:</p>
+        <div class="example2">
+            <h1>Lorem Ipsum Dolor</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+        </div>
+
+        <p>background-clip: content-box: </p>
+        <div class="example3">
+            <h1>Lorem Ipsum Dolor</h1>                
+            </p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                
+
+        </div>
+
+
+
+
+    </body>
+</html>
