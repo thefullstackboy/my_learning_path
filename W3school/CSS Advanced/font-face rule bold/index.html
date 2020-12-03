@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+
+* {
+   font-family: myFirstFont;
+}
+</style>
+</head>
+<body>
+
+<h1>The @font-face Rule</h1>
+
+<div>
+With CSS, websites can use <b>fonts other than the pre-selected "web-safe" fonts</b>.
+</div>
+
+<p><b>Note:</b> Internet Explorer 8 and earlier, do not support the @font-face rule.</p>
+
+</body>
+</html>
