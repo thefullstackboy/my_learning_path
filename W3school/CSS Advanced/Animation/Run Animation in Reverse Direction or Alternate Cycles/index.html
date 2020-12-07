@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Run Animation in Reverse Direction or Alternate Cycles
+        </title>
+        <style>
+
+            div {
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                position: relative;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-direction: reverse;
+            }
+
+            @keyframes example {
+                0% {background-color: red; left:0px; top:0px;}
+                25% {background-color: green; left: 200px; top:0px;}
+                50% {background-color:yellow; left: 200px; top:200px;}
+                75% {background-color: purple;left: 0px; top:200px;}
+                100% {background-color:red; left: 0px; top:0px;}
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+        <div></div>
+    </body>
+</html>
