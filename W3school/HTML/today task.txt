@@ -363,6 +363,8 @@ date:6-12-2020
 
 Set How Many Times an Animation Should Run
 
+Specify the Speed Curve of the Animation
+
 
 
 
