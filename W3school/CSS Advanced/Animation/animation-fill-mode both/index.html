@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            animation-fill-mode both
+        </title>
+        <style>
+            div {
+                background: red;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                animation-name: example;
+                animation-delay: 2s;
+                animation-duration: 3s;
+                animation-fill-mode: both;                
+            }
+
+            @keyframes example {
+                from{top:0px;background-color: yellow;}
+                to{top:200px;background-color: blue;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <p>Let the div element get the style values set by the first keyframe before the animation starts, and retain the style values from the last keyframe when the animation ends:</p>
+
+             <div></div>
+
+       <p><strong>Note:</strong> The animation-fill-mode property is not supported in Internet Explorer 9 and earlier versions.</p>
+    </body>
+</html>
