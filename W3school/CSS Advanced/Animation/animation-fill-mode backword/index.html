@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            animation-fill-mode backword
+        </title>
+        <style>
+
+            div {
+                width: 100px;
+                height: 100px;
+                background: red;
+                position: relative;
+                animation-name: example;
+                animation-duration: 3s;  
+                animation-delay: 2s;
+                animation-fill-mode: backwards;
+            }
+
+            @keyframes example {
+                to{top:0px;background-color: yellow;}
+                from{top:200px;}
+            }
+
+        </style> 
+    </head>
+    <body>
+        <p>Let the div element get the style values set by the first keyframe before the animation starts (during the animation-delay period):</p>
+
+            <div></div>
+
+        <p><strong>Note:</strong> The animation-fill-mode property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+    </body>
+</html>
