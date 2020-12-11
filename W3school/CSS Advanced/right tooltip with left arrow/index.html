@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Right tooltip with left arrow
+        </title>
+        <style>
+            body {
+                text-align: center;
+              }
+
+              .tooltip {
+                  position: relative;
+                 display: inline-block;
+                 border-bottom: 2px dotted black;
+              }
+
+              .tooltiptext {
+                  background-color: black;
+                  text-align: center;
+                  color: #fff;
+                  position: absolute;
+                  padding: 5px 0px;
+                  border-radius: 6px;
+                  visibility: hidden;
+                  left: 110%;
+                  top:-5px;
+                  z-index: 1;
+                  width: 120px;
+              }
+
+              .tooltiptext::after {
+                  border-width: 5px;
+                  border-color: transparent black transparent transparent;
+                  position: absolute;
+                  content: "";
+                  border-style: solid;
+                  top: 50%;
+                  right: 100%;
+                  margin-top: -5px;
+              }
+
+              .tooltip:hover .tooltiptext {
+                  visibility: visible;
+              }
+
+        </style>
+    </head> 
+    <body>
+
+        <h1>Right Tooltip w/ Left Arrow</h1>
+        
+        <div class="tooltip">
+            Hover over me
+            <span class="tooltiptext">Tooltip tex</span>
+        </div>
+
+
+
+    </body>         
+</html>
