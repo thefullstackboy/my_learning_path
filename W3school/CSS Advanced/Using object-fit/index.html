@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Using object-fit
+        </title>
+        <style>
+
+            div {
+                width: 100%;
+                height: 400px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h2>Not using object-fit</h2>
+
+        <p>Here we use do not use "object-fit", so when we resize the browser window, the aspect ratio of the images will be destroyed:</p>
+
+        <div>
+            <img src="rock600x400.jpg" alt="Norway" style="float: left;width: 50%; height: 100%;object-fit: cover;">
+            <img src="paris.jpg" alt="paris" style="float: left;width:50%; height: 100%;object-fit: cover;"> 
+
+        </div>
+    </body>
+</html>
