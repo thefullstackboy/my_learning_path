@@ -5,6 +5,24 @@
             next and preview pagination
         </title>
         <style>
+            .pagination {
+                display: inline-block;
+            }
+
+            .pagination a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+                transition: background-clor .3s;
+                border: 1px solid #ddd;
+            }
+
+            .pagination a.active {
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid #4CAF50;
+            }
 
 
         </style>
@@ -17,9 +35,11 @@
         </div>
 
         <p>Navigation pagination</p>
-
-        <div>
-            
+        <div class="pagination">
+            <a href="#" class="active">Home</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
         </div>
 
     </body>
