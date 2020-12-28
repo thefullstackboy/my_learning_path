@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Breadcrumbs
+        </title>
+        <style>
+            ul.breadcrump {
+                padding: 8px 16px;
+                list-style: none;
+                background-color: #eee;
+            }
+
+            ul.breadcrump li {
+               display: inline;
+            }
+
+            ul.breadcrump li+li:before {
+                padding: 8px;
+                color: black;
+                content: "/\00a0";
+                }
+
+                ul.breadcrump li a {
+                    color: green;
+                    }
+
+
+        </style>
+    </head>
+    <body>
+        <h2>Breadcrumbs pagination</h2>
+        <ul class="breadcrump"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pictures</a></li>
+            <li><a href="#">Summer 15</a></li>
+            <li>Italy</li>
+        </ul>
+
+
+    </body>
+</html>
