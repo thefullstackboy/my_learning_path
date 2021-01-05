@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            align content spce around
+        </title>
+        <style>
+            .flex-container {
+                display: flex;
+                background-color: dodgerblue;
+                align-content: space-around;
+                height: 600px;
+                flex-wrap: wrap;
+            }
+
+            .flex-container>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                margin: 10px;
+                width: 100px;
+                line-height: 75px;
+                font-size: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>The align-content property</h1>
+        <p>The "align-content:space-around;" displays 
+            the flex lines with space before, between, and after
+            them:
+        </p>
+
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+    </body>
+</html>
