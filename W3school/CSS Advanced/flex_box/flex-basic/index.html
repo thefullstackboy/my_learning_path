@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            The flex-basic property
+        </title>
+        <style>
+            .flex-container {
+                background-color: #f1f1f1;
+                display: flex;
+                align-items: stretch;
+            }
+
+            .flex-container>div {
+                background-color: dodgerblue;
+                margin: 10px;
+                line-height: 75px;
+                color: white;
+                text-align: center;
+                font-size: 30px;
+                width: 100px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>The flex-basic property</h1>
+        <p>Set the initial length of the thired flex item to 200px</p>
+
+        <div class="flex-container">  
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-basis: 200px;">3</div>
+            <div>4</div>
+             
+        </div>
+    </body>
+</html>
