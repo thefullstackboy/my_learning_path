@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            align-self Property
+        </title>
+        <style>
+            .flex-container {
+                background-color: #f1f1f1;
+                display: flex;
+                height: 200px;
+            }
+
+            .flex-container>div {
+                font-size: 30px;
+                text-align: center;
+                margin: 10px;
+                line-height: 75px;
+                width: 100px;
+                color:white;
+                background-color: dodgerblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>The align-self Property</h1>
+        <p>The "align-slef: center" aligns the selected flex item 
+            in the middle of the container
+        </p>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div style="align-self: center;">3</div>
+            <div>4</div>
+
+        </div>
+
+    </body>
+</html>
