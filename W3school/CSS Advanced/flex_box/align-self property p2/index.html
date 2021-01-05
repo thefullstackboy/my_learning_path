@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            align-self Property
+        </title>
+        <style>
+
+            .flex-container {
+                display: flex;
+                background-color: #f1f1f1;
+                height: 200px;
+            }
+
+            .flex-container>div {
+                width: 100px;
+                text-align: center;
+                color: white;
+                margin: 10px;
+                background-color: dodgerblue;
+                line-height: 75px;
+                font-size: 30px;
+            }
+
+        </style>     
+        </head>
+        <body>
+
+            <h1>The align-self Property</h1>
+
+            <p>The "align-self:flex-star" aligns the selected flex item
+                at the top of the container
+            </p>
+            <p>The "align-self:flex-end;" aligns the selected flex item at
+                the bottom of the container
+            </p>
+
+            <div class="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div style="align-self: flex-start;">3</div>
+                <div style="align-self: flex-end;">4</div>
+            </div>
+
+        </body>
+</html>
