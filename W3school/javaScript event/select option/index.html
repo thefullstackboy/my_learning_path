@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            select option
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        Choose which browser you perfer:
+        <select id="browser" onchange="preferbrowser()">
+            <option value="chrome">Chrome</option>
+            <option value="internet Explorer">Internet Explorer</option>
+            <option value="firefox"> firefox</option>
+
+   
+
+        </select>
+
+        <script>
+            function preferbrowser() {
+                var x = document.getElementById("browser").value;
+                alert("You perfect browsing internet with" + x);
+            }
+        </script>
+
+    </body>
+</html>
