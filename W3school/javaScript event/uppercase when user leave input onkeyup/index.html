@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            uppercase when user leave input onkeyup
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+
+         <p>A function is triggerd when the user releases a key in the input field. The 
+             function trasforms the  character to upper case.
+             </p>
+
+             Enter your name:<input type="text" onkeyup="leavekeyh()" id="demo">
+         
+             <script>
+                 function leavekeyh() {
+                     var x= document.getElementById("demo");
+                     x.value = x.value.toUpperCase();
+                 }
+             </script>
+    </body>
+</html>
