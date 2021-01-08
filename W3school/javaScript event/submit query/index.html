@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            submit query
+        </title>
+        <style>
+            
+
+        </style>
+    </head>
+    <body>
+    
+   <form onsubmit="textsubmitei()" action="https://www.w3schools.com/">
+    Enter the name:<input type="text" id="fname">
+    <input type="submit">
+
+
+   </form>
+   <script>
+       function textsubmitei() {
+          var x = document.getElementById("fname").value;
+          console.log(x);
+          alert(x + "Are you sure submit your form");
+       }
+   </script>
+    </body>
+</html>
