@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+
+    </head>
+    <title>
+        double output box
+    </title>
+    <style>
+
+    </style>
+    <body>
+
+        <p>The onekey event occurs when the a keyboard key is on its way UP.</p>
+
+        <form>
+            Enter your name:<input type="text" onkeyup="doubleentry()" id="demo">
+            <input type="text" id="demo2">
+        </form>
+<script>
+function doubleentry() {
+    var x = document.getElementById("demo").value;
+    document.getElementById("demo2").value = x; 
+}
+</script>
+    </body>
+</html>
