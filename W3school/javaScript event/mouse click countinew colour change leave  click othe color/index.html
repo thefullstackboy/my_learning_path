@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            mouse click countinew colour change leave click other 
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <p onmousedown="changecolor()" onmouseup="changecolor2()" id="demo">
+            Click the text to change the color. A function, with parameters, 
+            is triggered when the mouse button is pressed down, and again,
+             with other parameters, when the mouse button is released.
+             </p>
+
+             <script>
+                 function changecolor() {
+                     document.getElementById("demo").style.color ="red";
+                 }
+
+                 function changecolor2() {
+                     document.getElementById("demo").style.color ="green"; 
+                 }
+             </script>
+    </body>
+</html>
