@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            mouse click countinew colour change leave click other 
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body onmousedown="click0()" name="click00">
+        <p onmousedown="click1()" name="click01">
+             Click somewhere in the document. An alert box will
+            start the name of the element you clicked on.
+        </p>
+
+        <h3 onmousedown="click2()" name="click02">This is a heading</h3>
+
+        <img src="./smiley.gif" onmousedown="click3()" name="click03">
+
+       
+
+        <script>
+            function click0(){
+                 document.getElementsByName('click00');
+                 alert("you click body element");
+            }
+
+            function click1(){
+                 document.getElementsByName('click01');
+                 alert("you click p element");
+            }
+
+            function click2(){
+                 document.getElementsByName('click03');
+                 alert("you click h element");
+            }
+
+            function click3(){
+                 document.getElementsByName('click03');
+                 alert("you click image element");
+            }
+
+        </script>
+    </body>
+</html>
