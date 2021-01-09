@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+          when typing on the time change color box
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+
+        Write a message:
+        <input type="text" onkeydown="changecolor()" id="demo" onkeyup="changecolor2()">
+
+
+        <script>
+            function changecolor() {
+                document.getElementById("demo").style.background = "yellow";
+            }
+
+            function changecolor2() {
+                document.getElementById("demo").style.background = "white";
+            }
+        </script>
+    </body>  
+    
+</html>
