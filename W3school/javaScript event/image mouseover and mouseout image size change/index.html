@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            image moueover and mouseout image size change
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+
+<img src="./smiley.gif" onmouseover="imageoversizebig()" onmouseout="imageoutsizesmal()" id="demoimage">
+        <p>The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+        <p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+
+        <script>
+function imageoversizebig() {
+document.getElementById("demoimage").style.width ="64px"; 
+document.getElementById("demoimage").style.height ="64px";
+}
+
+function imageoutsizesmal() {
+    document.getElementById("demoimage").style.width ="32px";
+    document.getElementById("demoimage").style.height ="32px";
+}
+        </script>
+    </body>
+</html>
