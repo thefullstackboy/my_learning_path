@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <title>
+        user click double time show message
+    </title>
+    <style>
+
+    </style>
+    <body>
+        <p ondblclick="doubleclick()">Doubleclick this paragraph to trigger a function</p>
+
+        <p id="demo"></p>
+
+        <script>
+            function doubleclick() {
+                document.getElementById("demo").innerHTML = "Hello world";
+            }
+        </script>
+
+    </body>
+</html>
+    
