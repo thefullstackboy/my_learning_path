@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            keypass code
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body onkeyup="whichbutton('event')">
+        
+<p><b>Note:</b> Make sure the right frame has focus when trying this example!</p>
+
+<p>Click on this page, and press a key on your keyboard.</p>
+
+<p id="demo"></p>
+
+
+<script>
+    function whichbutton() {
+        document.getElementById("demo").innerHTML = event.keycode;
+    }
+
+</script>
+    </body>
+</html>
