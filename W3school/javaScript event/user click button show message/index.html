@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+user click button show message
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <p>Click the button to trigger a function</p>
+        <button type="button" onclick="clickmemessage()">Click me</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function clickmemessage() {
+                document.getElementById("demo").innerHTML = "Hello world";
+            }
+
+         
+        </script>
+    </body>
+</html>
