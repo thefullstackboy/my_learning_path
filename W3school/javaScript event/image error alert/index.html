@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <title>
+        image error alert
+    </title>
+    <style>
+
+    </style>
+    </head>
+    <body>
+
+        <img src="/.abc" onerror="imageerror()">
+        <p>A function is triggered if an error occurs when loading the image. The function shows an alert box with a text.
+            In this example we refer to an image that does not exist, therefore the onerror event occurs.</p>
+            
+     
+        <script>
+            function imageerror() {
+                alert("Image does not exits")
+            }
+        </script>
+    </body>
+</html>
