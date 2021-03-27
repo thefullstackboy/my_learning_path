@@ -21,12 +21,60 @@ My website layout
                 background: white;
             }
 
+            .header h1 {
+                font-size: 50px;
+            }
+
+
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .leftcolumn {
+                float: left;
+                width: 75%;
+            }
+
         </style>
     </head>
     <body>
         <div class="header">
             <h1>My Website</h1>
             <p>Resize the browser window to see the effect.</p>
+        </div>
+
+        <div class="topnav">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#" style="float: right;">Link</a>
+        </div>
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description. Dec 7, 2017</h5>
+
+                </div>
+
+            </div>
+
         </div>
 
     </body>
