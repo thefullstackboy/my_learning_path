@@ -1,0 +1,37 @@
+1 node js version check 
+2 open cmd
+type:- node-v
+
+terminal me chack karene ke liye
+3 node index.js
+
+REPL
+
+The REPL feature of Node is very useful in experimenting with node.js codes and to debug javaScript codes.
+Read
+Eval 
+print
+Loop 
+
+
+video 5
+core module:
+Consider modules to be the same as javaScript libraries. A set of functions you want to include in your application.
+
+node.js has a set of built-in modules which you can use without any futher installation.
+
+const fs = require("fs);
+
+creating a new file
+fs.writeFileSync("read.txt", "welcome my channel);
+
+text add ke liye
+fs.writeFileSync("read.txt", "welcome my channel);
+
+new text add kare ne ke liye.
+
+
+video 6
+nodejs challenge
+fs crud operations
+
