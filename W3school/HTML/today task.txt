@@ -462,21 +462,6 @@ git reset process:
 
 
 
+website local host
 
-
-
-  position: absolute;
-  bottom: -95%;
-  left: 50%; 
-align-items: center;
-  text-align: center;
-  justify-content: center;
-  transform: translate(-50%, -50%); 
-  display: flex;
-  padding-top: -6%;
-  color: #E78628;
-  font-size: 22px;
-  font-family: sans-serif;
-  font-weight: 400;
-  flex-direction: row;
-  width: 100%;
+   http://be14c6ea4c6c.ngrok.io

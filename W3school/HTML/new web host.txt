@@ -1,0 +1,3 @@
+ngrok http "file:///G:\new_websit_bharat_sewani_with_blog_2705\bharatsewani1993.github.io-master"
+
+ngrok authtoken 1tbqhPmZzfbJydvNlCPADIDU6Jg_3rZBRYLp5c4fJYdq17ucZ http "file:///G:\new_websit_bharat_sewani_with_blog_2705\bharatsewani1993.github.io-master"
