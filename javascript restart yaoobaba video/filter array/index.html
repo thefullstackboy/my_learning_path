@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+</head>
+<body>
+    <script>
+
+        var ht=[18,5,55,14,48,45,12,19,19,28,47,42,23,4,4,5,6,7,12,8,9,4];
+        document.write(ht+"<br><br>");
+
+        var ji =ht.filter(finder);
+        document.write(ji+"<br><br>");
+
+        function finder(hue){
+            return hue>=18;
+        }
+
+    
+
+
+
+     </script>   
+</body>
+</html>
