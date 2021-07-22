@@ -9,7 +9,7 @@
 <body>
     <form action=" " type="submit" onsubmit="jkefunction()">
         <label for="">Name</label>
-        <input type="text" id="fname" onfocus="focusFunction(this)" onblur="blure(this)" oninput="ahd(this)" onselect="selectfunction(this)"><br><br>
+        <input type="email" id="fname" onfocus="focusFunction(this)" onblur="blure(this)" oninut="ahd(this)" onselect="selectfunction(this)" oninvalid="alert('You must fill out the form!');"><br><br>
         <label for="">Class</label><input onfocus="focusFunction(this)" onblur="blure(this)" type="text" id="fname" ><br><br>
 
         <label for="">Country</label>
@@ -54,6 +54,8 @@
                x = document.getElementById('fname').value;
                alert("Hello  " +  x);
         }
+
+        function selectfunction()
     </script>
 
     
