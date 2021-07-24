@@ -24,6 +24,13 @@
           //new function
           newfunction: function(){
               return this.fname+" "+this.lname+" "+this.age;
+          },
+
+          //obeject in object
+          abc:{
+              'city' : 'ajmer',
+              'country' : 'india',
+
           }
         }
 
@@ -43,7 +50,10 @@
         document.write(a.salary()+"<br>");
 
         //print new function
-        document.write(a.newfunction());
+        document.write(a.newfunction()+"<br>");
+
+        //print object in object
+        document.write(a.abc.city);
 
     </script>  
 </body>
