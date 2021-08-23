@@ -324,16 +324,318 @@
 
 // // Test 2
 // scoreDolphins = calcAverage(85, 54, 41);
-// scoreKoalas = calcAverage(23, 34, 27);
-// console.log(scoreDolphins, scoreKoalas);
-// checkWinner(scoreDolphins, scoreKoalas);
+// // scoreKoalas = calcAverage(23, 34, 27);
+// // console.log(scoreDolphins, scoreKoalas);
+// // checkWinner(scoreDolphins, scoreKoalas);
+// const friend = ['michael', 'Steven', 'peter'];
+// console.log(friend)
+
+// const years = new Array(1991,1985, 1970);
+// console.log(years)
+// const yeareee = [1991,1998,9914,1956,2021];
+// console.log(friend [0]);
+// console.log(friend[2]);
+
+// console.log(friend.length);
+
+// console.log(friend [friend.length - 2]);
+
+// console.log(yeareee[yeareee.length -2]);
+
+// friend[2] = 'mohit';
+// console.log(friend)
 
 
-const friend = ['michael', 'Steven', 'peter'];
-console.log(friend)
+// const firstName = 'Jonas';
+// const jonas = [firstName, 'Schmedtmann', 2037 - 1991,
+// 'teacher' , friend];
+// console.log(jonas);
+// console.log(jonas.length);
+ 
 
-const years = new Array(1991,1985, 1970);
-console.log(years)
+// const lastname = 'mohit';
+// const derp = [lastname, `mohit`, 2021-1996, 'web', friend];
+// console.log(derp.length)
+// const calcAge = function (birthYear){
+//     return 2037 - birthYear;
+// }
+
+// const year = [1990, 1967, 2002, 2010, 2018];
+
+// const age1 = calcAge(year[0]);
+// const age2 = calcAge(year[1]);
+// const age5 = calcAge(year[3]);
+// const age6 = calcAge(year[4])
+// const age3 = calcAge(year[year.length - 1]);
+// console.log(age1,age2, age3,age5,age6);
+
+
+// function abc(ndet){
+//     const newyear = 2021-ndet;    
+//     return newyear
+// }
+
+// console.log(abc(2007));
+
+// const year2 = [1996,1997,1998,1999,2000,2001,2002];
+// const myn1 =abc(1999);
+// const myn2 =abc(year2[1]);
+// const myn3 =abc(year2[2]);
+// const myn4 =abc(year2[3]);
+
+
+
+// console.log(myn1,myn2,myn3,myn4);
+
+
+// const year5 = [abc(year2[1]), abc(year2[2]), abc(year2[3]), abc(year2[5])]
+// console.log(year5);
+
+//basic array method
+
+// const friends = ['1', '2', '3' ];
+// friends.push('4');
+// console.log(friends);
+
+// // friends.unshift('John');
+// // friends.unshift('mohit')
+// console.log(friends);
+
+// friends.pop();
+// friends.pop();
+// friends.pop();
+// friends.pop();
+// //const propped = friends.pop();
+// // //console.log(propped);
+// // console.log(friends);
+
+
+// const ape = ['a', 'b', 'c', 'd','e','f','g']
+// // ape.pop()
+// // console.log(ape);
+
+// // ape.shift()
+// // console.log(ape)
+// //console.log(ape.indexOf('c'))
+// console.log(ape.includes('c'));
+
+// // if (ape.includes('c')){
+// //     console.log('you hava a avalible');
+// // }
+// const amount = [125,555,44];
+// function calculatebillamount(amount,tip)  {
+// if (amount > 50 && amount < 300){
+//    amount*0.15;
+//   return amounts;
+//     console.log(`Your total bil ${amount} and tip${tipamount} finaliy you
+//     pay ${amount+tipamount}`);
+// } else( amount > 300) 
+//      amount*0.20;
+//      return amounts;
+// //      console.log(`Your total bil ${amount} and tip${tipamount} finaliy you
+// //     pay ${amount+tipamount}`);
+//  function summ(a,b){
+//     const aer = a+b;
+//     return aer;
+//     console.log(summa(55,56))
+// }
+// console.log(calculatebillamount(amount[1]))
+// }
+
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// }
+// // const calcTip = bill => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+// const bills = [100, 400,1000];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+// console.log(bills, tips, totals);
+
+// const calcTip2 = function(bill) {
+//     return bill >= 50 && bills <=300 ? bill * 0.15 : bill * 0.2; 
+// }
+
+// // const bil = [100,800,1000];
+// // const tip = [calcTip2([0]), calcTip2([1]), calcTip2([2])];
+// // const totalamount = [bills[0],  
+
+// const calcTip = function (bill) { //ye function ha
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// }
+// // const calcTip = bill => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+// const bills = [100, 1000, 10000];///total bill
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];//calculation tips
+// const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+// console.log(bills, tips, totals);
+
+// const calTip = function(bill){
+//     return bill>=50 && bill<=300 ? bill*0.15 : bill*0.2;
+// }
+
+// const bill = [100,1000,100000];
+// const tip = [calTip(bill[0]), calTip(bill[1]), calTip(bill[2])];
+// const finalbill = [bill[0]+tip[0], bill[1]+tip[1], bill[2]+ tip[2]];
+
+// console.log(bill,tip,finalbill);
+
+//object starting
+
+
+///////////////////////////////////////
+// Introduction to Objects
+// const jonasArray = [
+//   'Jonas',
+//   'Schmedtmann',
+//   2037 - 1991,
+//   'teacher',
+//   ['Michael', 'Peter', 'Steven']
+// ];
+
+// //const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   age: 2037 - 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven']
+// };
+
+
+// ///////////////////////////////////////
+// // Dot vs. Bracket Notation
+// const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   age: 2037 - 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven']
+// };
+// console.log(jonas);
+
+// console.log(jonas.lastName);
+// console.log(jonas['lastName']);
+
+// const nameKey = 'Name';
+// console.log(jonas['first' + nameKey]);
+// console.log(jonas['last' + nameKey]);
+
+// // console.log(jonas.'last' + nameKey)
+
+// const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+
+// if (jonas[interestedIn]) {
+//   console.log(jonas[interestedIn]);
+// } else {
+//   console.log('Wrong request! Choose between firstName, lastName, age, job, and friends');
+// }
+
+// jonas.location = 'Portugal';
+// jonas['twitter'] = '@jonasschmedtman';
+// console.log(jonas);
+
+// // Challenge
+// // "Jonas has 3 friends, and his best friend is called Michael"
+// console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+// Object Methods
+
+// const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   birthYeah: 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven'],
+//   hasDriversLicense: true,
+
+// //   calcAge: function (birthYeah) {
+// //     return 2037 - birthYeah;
+// //   }
+
+//   calcAge: function () {
+//      console.log(this);
+//     return 2037 - this.birthYeah;
+//   }
+
+// //   calcAge: function () {
+// //     this.age = 2037 - this.birthYeah;
+// //     return this.age;
+// //   },
+
+// //   getSummary: function () {
+// //     return `${this.firstName} is a ${this.calcAge()}-year old ${jonas.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
+// //   }
+// // };
+
+// // console.log(jonas.calcAge());
+
+// // // console.log(jonas.age);
+// // // console.log(jonas.age);
+// // // console.log(jonas.age);
+
+// // // Challenge
+// // // "Jonas is a 46-year old teacher, and he has a driver's license"
+// // // console.log(jonas.getSummary());
+
+// const jonas = {
+//     firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   birthYeah: 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven'],
+//   hasDriversLicense: true,
+
+//   calcAge: function () {
+//       console.log(this);
+//       return 2037 - this.birthYeah;
+//   },
+
+//   getSummary: function() {
+//       return `${this.firstName} is a ${this.calcAge()}
+//       -year old ${jonas.job}, and he has ${this.
+//     hasDriversLicense ? 'a' : 'no'} driver's license.`
+//   } 
+
+// };
+
+// console.log(jonas.getSummary());
+
+
+
+// const abe = {
+//     name: 'depak',
+//     drili: true,
+
+//     abye : function()  {
+//       return `${this.name} is driving license ${this.drili ? 'avaliable.' : 'not avaliable'}`
+//     }
+// }
+// console.log(abe.abye());
+
+
+const mark = {
+    name: 'mark',
+    weight: "78",
+    height:"1.69",
+
+    calcBMI : function() {
+        return  mark.weight/mark.height ** 2;        
+    }
+
+}
+
+const john = {
+    name: 'john',
+    weight: "92",
+    height:"1.95",
+    mcalcBMI : function() {
+        return  john.weight/john.height ** 2;        
+    }
+}
+
+console.log(`${mark.name} weights ${mark.weight} kg and is height ${mark.height} meter mark BMI is ${mark.calcBMI()} and
+${john.name} weight ${john.weight} kg and is height ${john.height} meter john BMI is ${john.mcalcBMI()}.`)
 
 
 
