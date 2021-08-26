@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript DOM: Replace Elements</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Homepage</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+
+    <ul>
+        
+    </ul>
+    <script>
+        var menu = document.getElementById('menu');
+        // create a new node
+        var li = document.createElement('li');
+        li.textContent = 'ghk';
+        // replace the first list item
+
+        menu.replaceChild(li,menu.Child[2]);
+    </script>
+</body>
+</html>

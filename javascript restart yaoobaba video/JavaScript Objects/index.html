@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaobjects</title>
+</head>
+<body>
+    <script>
+        var a = {
+            fname : "mohan",
+            lname : "sharma",
+            age :"24",
+            email :"mohitsewani@gmail.com",
+            //object in array banna ha
+            movies:["abc","cba","bac"],
+            
+            //salrey in object
+          salary : function(){
+              return 25000;
+          },
+
+          //new function
+          newfunction: function(){
+              return this.fname+" "+this.lname+" "+this.age;
+          },
+
+          //obeject in object
+          abc:{
+              'city' : 'ajmer',
+              'country' : 'india',
+
+          }
+        }
+
+       // document.write(a);
+        console.log(a);
+        document.write(a.fname+"<br>");
+        document.write(a.lname+"<br>");
+        document.write(a.age+"<br>");
+        document.write(a.email+"<br>")
+
+
+        //print array
+        document.write(a.movies+"<br>");
+        document.write(a.movies[2]+"<br>");
+
+        //print salary
+        document.write(a.salary()+"<br>");
+
+        //print new function
+        document.write(a.newfunction()+"<br>");
+
+        //print object in object
+        document.write(a.abc.city);
+
+    </script>  
+</body>
+</html>

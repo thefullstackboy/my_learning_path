@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formvalidation</title>
+</head>
+<body>
+    <form action=" " type="submit" onsubmit="jkefunction()">
+        <label for="">Name</label>
+        <input type="email" id="fname" onfocus="focusFunction(this)" onblur="blure(this)" oninut="ahd(this)" onselect="selectfunction(this)" oninvalid="alert('You must fill out the form!');"><br><br>
+        <label for="">Class</label><input onfocus="focusFunction(this)" onblur="blure(this)" type="text" id="fname" ><br><br>
+
+        <label for="">Country</label>
+        <select id="" onfocus="focusFunction(this)" onblur="blugfr(this)" onchange="jef(this)">
+            <option value="india">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Bang">Bang</option>
+            <option value="srilanka">Sri Lanka</option>
+            <option value="Nepal">Nepal</option>
+
+            <input type="submit" value="submit">
+
+        </select>
+        <div style="border: 2px solid red;" id="text"></div>
+
+    </form>
+
+    <script>
+        function focusFunction(element){
+           element.style.background = "red";
+        }
+
+        function blure(element){
+            element.background = "yellow";
+        }
+
+        function ahd(element){
+            var x = element.value;
+            document.getElementById("text").innerHTML = x;
+        }
+
+        function jef(elelment){
+            var x =elelment.value;
+            document.getElementById("text").innerHTML = x;
+        }
+
+        function selectfunction(){       
+        console.log("you select this field");
+        }
+
+        function jkefunction(){
+               x = document.getElementById('fname').value;
+               alert("Hello  " +  x);
+        }
+
+        function selectfunction()
+    </script>
+
+    
+</body>
+</html>

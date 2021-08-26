@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resize window</title>
+</head>
+<body>
+    
+
+    <button onclick="openwindow()">open window</button>
+    <button onclick="resizewidnow()">resize window</button>
+
+
+    <script>
+        var mywindow;
+
+        function openwindow(){
+            mywindow =window.open("","","width=200px,height=200px,top=100px")
+            mywindow.document.write("<p>my text</p>");
+        }
+
+        function resizewidnow(){
+            mywindow.resizeBy(400,400);
+        }
+    </script>
+
+
+</body>
+</html>
