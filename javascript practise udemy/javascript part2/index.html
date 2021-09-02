@@ -7,7 +7,12 @@
     <title>part2</title>
 </head>
 <body>
-
+<p class="message">hello world</p>
+<p class="number"></p>
+<section class="left">
+  <input type="number" class="guess" />
+  <button class="btn check">Check!</button>
+</section>
 <script>
     'use strict'
    //et hasDriversLincense = false;
@@ -898,7 +903,7 @@ console.log(bills, tips, totals);
 //**********************important****************************
 // const calcTempAmplitufe = function (temps) {
 //   let max = temps[0];
-//   let min = temps[0];
+//   let min = temps[0]; 
 //   for (let i = 0; i < temps.length;  i++) {
 //     const curTemp = temps[i];
 //     if(typeof curTemp !== 'number') continue;
@@ -915,26 +920,74 @@ console.log(bills, tips, totals);
 // const amplitude = calcTempAmplitufe(temperatures);
 // console.log(amplitude);
 
-const measureKelvin = function () {
-  const measurement = {
-    type: 'temp',
-    unit: 'celsius',
-    value: Number(prompt('Degrees celsius:')),
-  };
+// const measureKelvin = function () {
+//   const measurement = {
+//     type: 'temp',
+//     unit: 'celsius',
+//     value: Number(prompt('Degrees celsius:')),
+//   };
 
-  console.table(measurement);
- // console.log(measurement.value);
-  const kelvin = measurement.value + 273;
-  return kelvin;
-};
+//   console.table(measurement);
+//  // console.log(measurement.value);
+//   const kelvin = measurement.value + 273;
+//   return kelvin;
+// };
 
-console.log(measureKelvin());
+// console.log(measureKelvin());
+//Developer Skills & Editor Setup
+//coding challenge
+
+// const printForecast = function(){
+// const arr = [17, 21, 23]
+
+// console.log(printForecast.arr[0],printForecast.arr[1],printForecast.arr[2])
+// }
 
 
+// const data1 = [17, 21, 23];
+// const data2 = [12, 5, -5, 0, 4];
 
 
+// console.log(`...${data1[0]}C......${data1[1]}C......${data1[2]}C...`)
+
+// const printForecast = function(arr) {
+//   let str = ' ';
+//    for(let i = 0; i < arr.length; i++) {
+//      str += `${arr[i]}c in ${i + 1} days... `;
+//    }
 
 
+//    console.log('...' + str);
+// };
+
+// printForecast(data1);
+
+//**notedown query select document ko select karne ke liye hota 
+// // hot text content text ko select karne ke liye use me liya jata ha***
+// console.log(document.querySelector('.message').textContent);
+// document.querySelector('.message').textContent = 'Correct Number';
+
+// document.querySelector('.number').textContent = 13;
+// document.querySelector('.score').textContent = 10;
+
+// console.log(document.querySelector('.guess').value);
+
+// document.querySelector('.check').addEventListener
+// ('click', function () {
+//   console.log(document.querySelector('.guess').value);
+// });
+
+// document.querySelector('.check').addEventListener
+// ('click', function () {
+// const guess = Number(document.querySelector(`.
+// guess`).value);
+
+// console.log(guess, typeof guess);
+
+// if (!guess) {
+//   document.querySelector(`.message`).textContent = 
+// }
+// })
 
 
 
