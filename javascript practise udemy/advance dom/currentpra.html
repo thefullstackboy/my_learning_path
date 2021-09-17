@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container, .demo {
+          background-color: tomato;
+          color: white;
+          padding: 20px;
+          margin: 10px;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="demo"> Grandparent
+        <div class="demo container">Parent
+          <div id="myElement" class="demo">The parent of this div element will be selected.</div>
+        </div>
+      </div>
+      
+      <script>
+      var element = document.getElementById("myElement");
+      var closest = element.closest(".container");
+      if (closest) {
+        closest.style.border = "10px solid yellow";
+      }
+      </script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="special-div">
+        <span id="mySpan">
+            <strong id="myStrong">Hey, how are ya?</strong>
+        </span> 
+    </div>
+
+    <script>
+        const mystrong  = document.querySelector("#myStrong");
+      console.log(mystrong.closest(".special-div"));
+            
+//***********************************************************************************
+      const module = {
+  x: 42,
+  getX: function() {
+    return this.x;
+  }
+};
+
+const unboundGetX = module.getX;
+console.log(unboundGetX()); // The function gets invoked at the global scope
+// expected output: undefined
+
+const boundGetX = unboundGetX.bind(module);
+console.log(boundGetX());
+// expected output: 42
+
+
+
+    </script>
+</body>
+</html>

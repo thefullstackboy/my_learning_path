@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+        // let arr  = ['a', 'b', 'c', 'd', 'e'];
+        // console.log(arr.slice(2));
+
+        // let arr2  = ['1', '2', '3', '4', '5'];
+        // console.log(arr2.slice(2));
+        // console.log(arr2.slice(1,-2))
+        // console.log(arr.slice())
+        // console.log(arr.slice(1,-2))
+
+        // var geek = ["Rahul", "Soname", "Sumit", "Raj", "Rohan"];
+        // geek.splice(2);
+        // document.write(geek);
+
+        
+        // var geek2 = ["1", "2", "3", "4", "5"];
+        // geek2.splice(3
+        // -+);
+        // document.write(geek2);
+
+        // //REVERSE
+        // //arr = ['a', 'b', 'c', 'd', 'e'];
+        // const arr2 = ['1','2','3','4'];
+        // console.log(arr2.reverse(arr2))
+        // console.log(arr2);
+
+        // const wet1= ["a","b","c"]
+        // const wet2 = ["d","e","f"]
+
+        // const wet3 = wet1.concat(wet2);
+        // console.log(wet3);
+
+        //  const wet6= wet3.join("_");
+        //  console.log(wet6);
+//         const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+         
+//     for (const [i, movement] of movements.entries()) {
+//         if (movement > 0) {
+//             console.log(`Movement ${i + 1}: You deposited ${movement}`);            
+//         } else {
+//             console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
+//         }
+//     }    
+
+//     console.log(`--------FOREACH-----`);
+//     movements.forEach(function (mov, i, arr) {
+//         if (mov > 0) {
+//             console.log(`Movement ${i + 1}: You deposited ${mov}`);            
+//         } else {
+//             console.log(`Movement ${i + 1}: You withdrew ${Math.abs(mov)}`);
+//         }
+//     });
+
+//     const array1 = ['a', 'b', 'c','sd'];
+
+// array1.forEach(element => console.log(element));
+
+// var geek = ["Rahul", "Ram", 56, "jay"];
+// geek.forEach((value, index)=>{
+//     document.write(value + " " + index + "<br>");
+// }) 
+
+// const currencies = new Map([
+//     ['USD', 'United States dollar'],
+//     ['EUR', 'Euro'],
+//     ['GBP', 'pound sterling'],
+// ]);
+
+// currencies.forEach(function (value, key, map) {
+//     console.log(`${key}: ${value}`);
+// });
+
+
+// //set 
+// const currencies2 = new Set(['USD', 'GBP', 'USD', 'EUR, `EUR']);
+// console.log(currencies2);
+// currencies2.forEach(function (value, _, map) {
+//     console.log(`${value}: ${value}`);
+// });
+
+//challange3
+// const checkDogs =(newjulidata1)=> {
+//     let juliaData1 = [3, 5, 2, 12, 7];
+//     let juliaData2 =[9, 16, 6, 8, 3];
+
+//     let kateData1 = [4, 1, 15, 8, 3];
+//     let kateData2 = [10, 5, 6, 1, 4];
+
+//    return newjulidata1= juliaData1.splice(1,2);
+//     console.log(newjulidata1);
+//     console.log(...newjulidata1);
+//     console.log(...kateData1)
+// }
+
+// newjulidata1.forEach(function (newjulidata1)  {
+//     if(newjulidata1>3){
+// //         console.log(`Dog number 1 is an adult, and is 5 years old`)
+// //     }
+// // });
+
+// // const checkDogs = function (dogsJulia, dogsKate) {
+// //     const dogJuliaCorrected = dogsJulia.slice();
+// //     dogJuliaCorrected.splice(0, 1);
+// //     dogJuliaCorrected.splice(-2);
+
+// //    // console.log(dogJuliaCorrected)
+// //    const dogs = dogJuliaCorrected.concat(dogsKate);
+// //    console.log(dogs);
+
+// //    dogs.forEach((dog, i) => {
+// //        if(dog >= 3) {
+// //            console.log(`Dog number ${i+1} is an adult, and is ${dog} year old`);
+// //        } else {
+// //            console.log(`Dog number ${i+1} is still a puppy`)
+// //        }
+// //    });
+// // };
+
+// // checkDogs ([3,5,2,12,7], [4,1,15,8,3]);
+// const array1 = [1, 4, 9, 16];
+
+// // pass a function to map
+// const map1 = array1.map(x => x * 2);
+
+// console.log(map1);
+// // expected output: Array [2, 8, 18, 32]
+
+// const eurToUsd = 1.1;
+
+// // const movementsUSD = movements.map(function (mov) {
+// //   return mov * eurToUsd;
+// // });
+
+// const movementsUSD = movements.map(mov => mov * eurToUsd);
+
+// console.log(movements);
+// console.log(movementsUSD);
+
+// const movementsUSDfor = [];
+// for (const mov of movements) movementsUSDfor.push(mov * eurToUsd);
+// console.log(movementsUSDfor);
+
+// const movementsDescriptions = movements.map(
+//   (mov, i) =>
+//     `Movement ${i + 1}: You ${mov > 0 ? 'deposited' : 'withdrew'} ${Math.abs(
+//       mov
+//     )}`
+// );
+// console.log(movementsDescriptions);
+
+// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+// const result = words.filter(word => word.length > 6);
+
+// console.log(result);
+// // expected output: Array ["exuberant", "destruction", "present"]
+
+// const word2 = ['arsf','asddf','asf','f','dr', 'de'];
+
+// const result2 = word2.filter(function(ae) {
+// return ae.length>=4;
+// }) 
+
+// console.log(result2)
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300, 250, 789]
+// console.log(movements)
+
+// const balance = movements.reduce(function (acc, cur, i, arr,re4,,,){
+//     console.log(`Iteration ${i}: ${acc}`);
+//     return acc + cur;
+// }, 0);
+// console.log(balance);
+
+// let balance2 = 0;
+// for(const mov of movements) balance2 += mov;
+// console.log(balance2)
+
+// let arr = [8,2,3,4,5,6];
+// let sum = arr.reduce((accum, curr) => {    
+//     return accum + curr;
+// },)
+
+// //coding challenge #2
+// const calcAverageHumanAge =(dogAge) => {
+// let data1 = [5, 2, 4, 1, 15, 8, 3] ;
+// let calhumage = data1.map(data1<=2, 2 * dogAge);
+
+    
+// }
+
+// console.log(calcAverageHumanAge(52,4))
+
+// const calcAverageHumanAge = function (ages) {
+//     const humanAges = ages.map(age =>(age <= 2 ? 2 * age : 16 + age * 4));
+//     console.log(humanAges);
+// }
+
+// console.log(calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]))
+
+
+// const calcAverageHumanAge = function(ages,dogage) {
+//     const humanAges = ages.map(age =>(age <=2 ? 2 * age: 16 + age * 4));
+//     const adults = humanAges.filter(age =>age >=18);
+//     console.log(humanAges);
+//     console.log(adults);
+
+//     const average = adults.reduce((acc, age) => acc + age, 0) / adults.length;
+
+//     return average;
+// };
+
+// const avg1 = calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
+// const avg2 = calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
+
+// console.log(avg1, avg2);
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// const eurToUsd = 1.1;
+// const totalDepositsUSD = movements
+// .filter(mov => mov > 0)
+// .map(mov => mov * eurToUsd)
+// .reduce((acc, mov) => acc + mov, 0);
+
+
+// console.log(totalDepositsUSD);
+
+// const dfm = movements.find(mov => mov < 0)
+// console.log(dfm);
+
+// const array1 = [5, 12, 8, 130, 44];
+
+// const isLargeNumber = (element) => element > 13;
+
+// console.log(array1.findIndex(isLargeNumber));
+// // expected output: 3
+
+
+// const jkfl = [25,69,3558,5,4,12,5,125,125,40,45,5,98,40,85,45,45,5,8,1,2,5,6,9,89,78,45,98,78,45,351];
+
+// const fodfe = (element5)=> element5>350
+// console.log(jkfl.findIndex(fodfe));
+
+// const er = [25,69,68,48,45,59,567,459,                                                                                                                                                            ];
+// const dkr = (df)=> df>80;
+// console.log(er.findIndex(dkr));
+
+// console.log(er.indexOf(48))
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// console.log(movements.includes(-130));
+
+// const anyDeposits = movements.some(mov => mov > 1500);
+// console.log(anyDeposits);
+
+// const array8 = [20,55,30];
+// const ans = array8.some(movet=> movet>32);
+// console.log(ans);
+
+// console.log(ans)
+
+// const arr = [[1, 2, 3], [4, 5, 6], 7, 8];
+// console.log(arr.flatMap());
+
+// //flatmap method?
+
+// let arr1 = [1, 2, 3, 4];
+
+// arr1.map(x => [x * 2]);
+// // [[2], [4], [6], [8]]
+
+// arr1.flatMap(x => [x * 2]);
+// // [2, 4, 6, 8]
+
+// // only one level is flattened
+// arr1.flatMap(x => [[x * 2]]);
+// // [[2], [4], [6], [8]]
+
+// console.log(arr1)
+
+// Taking input as an array A having some elements.
+// var A = [ 1, 2, 3, 4, 5 ];
+ 
+// // Mapping with map function.
+// b = A.map(x => [x * 3]);
+// document.write(b);
+ 
+// // Mapping and flatting with flatMap() function.
+// c = arr1.flatMap(x => [x * 3]);
+// document.write(c);
+ 
+
+// Mapping and flatting with flatMap() function.
+//d = arr1.flatMap(x => [[ x * 3 ]]);
+//document.write(d);
+
+
+// var f = [1 ,2,35,6]
+// f.flatMap(r => [r*3])
+// document.write(f)
+
+
+//sort method
+// const df = ["fg","Gd","tr","b"]
+// //const det = df.sort();
+// //console.log(det);
+
+// console.log(df.sort());
+
+//Number
+// const owners = ['a', 'f', 'b', 'c'];
+// console.log(owners.sort());
+// console.log(owners);
+
+// //Asending
+// const movements9 = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// movements9.sort((a, b) => a - b);
+// console.log(movements9);
+
+// //Descending
+// movements9.sort((a,b) => b - a);
+// console.log(movements9);
+
+// //loge 
+// const arer = [1, 2, 3, 4, 5, 6, 7 ];
+// console.log(new Array(1, 2, 3, 4, 5, 6, 7));
+
+// //Emprty arrays + fill method
+// const x = new Array(7,4,5,6,98);
+// console.log(x);
+
+// //console.log(x.map() => 5));
+// x.fill(1, 3, 5);
+// x.fill(1);
+// console.log(x);
+
+// arr.fill(23, 2, 6);
+// console.log(arr);
+
+// // let fruits = ['Apple', 'Banana'];
+
+// // console.log(fruits.length); // 2
+// // console.log(fruits[]);     // "Apple"
+
+// // // literal constructor
+// // // [element0, element1, ...elementN]
+
+// // // // construct from elements
+// // // new Array(element0, element1, ..., elementN)
+
+// // // // construct from array length
+// // // new Array(arrayLength)
+
+
+
+// // // const dsjf = ("5","4","5");
+// // // const dsfj = dsjf.new Array((fg)=>);
+// // // console.log(dsfj);
+// // let deep = ["fsdf","Rewr","Fsa","erw","Cx"];
+// // deep.fill("deep");
+// // console.log(deep);
+
+// // let djf = new  Array(5);
+// // let asd = djf.fill("ram");
+// // console.log(asd);
+
+// // //Array.from 
+
+// // const y = Array.from({ length: 7 }, () => 1);
+// // console.log(y);
+
+// const arr = [1,2, 3, 4, 5, 6, 7];
+// console.log(new Array(1, 2, 3, 4, 5, 6, 7));
+
+// //array.from
+// const y = Array.from({ length: 15 }, () =>1);
+// console.log(y);
+
+// const z = Array.from({ length: 7}, (_, i) => i + 1) ;
+// console.log(z);
+
+// console.log(Array.from('foo'));
+// // expected output: Array ["f", "o", "o"]
+
+// console.log(Array.from([1, 2, 3], x => x + x));
+// // expected output: Array [2, 4, 6]
+
+// console.log(Array.from(`gyr5`));
+// //console.log("25,45,45,4578,9");
+// const accounts = [];
+// const bakDepositSum = accounts
+// .flatMap(acc => acc.movements)
+// .flatMap(acc => acc.movements)
+// .filter(mov => mov > 0)
+// .reduce((sum, cur) => sum + cur, 0);
+
+// console.log(bakDepositSum);
+
+// //2
+// const numDeposuts1000 = accounts
+// .flatMap(acc => acc.movements)
+// .filter(mov => mov > 1000).length;
+
+// console.log(numDeposuts1000);
+
+// //3 
+// console.log("abc");
+
+//challange 4
+// const dogs = [
+//  { weight: 22, curFood: 250, owners: ['Alice', 'Bob'] },
+//  { weight: 8, curFood: 200, owners: ['Matilda'] },
+//  { weight: 13, curFood: 275, owners: ['Sarah', 'John'] },
+//  { weight: 32, curFood: 340, owners: ['Michael'] },
+//  ];
+
+// //1 ans
+//  dogs.forEach(dog => (dog.recFood = Math.trunc(dog.weight ** 0.75 * 28)));
+//  console.log(dogs);
+
+//  //2 ans
+// const dogSarah = dogs.find(dog => dog.owners.includes('Sarah'));
+// console.log(dogSarah);
+// console.log(
+//     `Sarah's dog is eating too ${dogSarah.curFood > dogSarah.recFood ? 'much' : 'little'} the is`
+// );
+
+// //3
+// const  ownersEatTooMuch = dogs
+// .filter(dog => dog.curFood > dog.recFood)
+// .flatMap(dog => dog.owners);
+// // .flat();
+// console.log(ownersEatTooMuch);
+
+// const ownersEatTooLittle = dogs
+// .filter(dog => dog.curFood < dog.recFood)
+// .flatMap(dog => dog.owners);
+// //.flat();
+
+// console.log(ownersEatTooLittle);
+// console.log(ownersEatTooMuch);
+
+// //4
+// console.log(`${ownersEatTooMuch.join(` and `)}s dogs eat too much!`);
+// console.log(`${ownersEatTooMuch.join(' and ')}'s dogs eat too little!`);
+
+// //5
+// console.log(dogs.some(dog => dog.curFood === dog.recFood));
+
+// //6
+// const checkEating0kay = dog =>
+// dog.curFood > dog.recFood * 0.09 && dog.curFood < dog.recFood * 1.1;
+
+// console.log(dogs.some(checkEating0kay));
+
+// //7
+// console.log(dogs.filter(checkEating0kay));
+
+// //8
+// const dogsSorted = dogs.slice().sort((a, b) => a.recFood - b.recFood);
+// console.log(dogsSorted);
+
+//intger and numercial sectione
+
+//Base 10 - 0 to 9.1/10 = 0.1. 3/10 = 3.33333
+//Binary base 2 - 0 1
+// console.log(0.1 + 0.2);
+// console.log(0.1 + 0.2 === 0.3);
+
+// console.log(Number('23'));
+// console.log(+'23');
+
+// //parsing
+// console.log(Number.parseInt('30px', 10));
+// console.log(Number.parseInt('e23', 10));
+
+// console.log(Number.parseInt(' 2.5rem'));
+// console.log(Number.parseFloat('2.5rem'));
+
+
+// console.log(Number.isNaN(20));
+// console.log(Number.isNaN('20'));
+// console.log(Number.isNaN(+'20x'));
+// console.log(Number.isNaN(23 / 0));
+
+// console.log(Number.isFinite(20));
+// console.log(Number.isFinite('20'));
+// console.log(Number.isFinite(+'20X'));
+// console.log(Number.isFinite(23 / 0));
+
+// console.log(Math.sqrt(400));
+// console.log(25 ** (1/2));
+// console.log(8 ** (1/3));
+
+// console.log(Math.max(5, 18, 23, 11, 2));
+// console.log(Math.max(5, 18, '23', 11, 2));
+// console.log(Math.max(5, 18, 11, 2));
+
+// console.log(Math.max(5,2,556,54,105,1000,10000000000000000000000000000000000,58,45,1,568,425,64,12,9,4,2,4,56,45467,8789,4546546,9789,134,56,789798,7,98879,999999999999000000000))
+
+// console.log(Math.PI * Number.parseFloat('10px') ** 2);
+
+// console.log(Math.trunc(Math.random() * 5) + 1);
+// console.log(Math.trunc(Math.random() * 8) + 1);
+
+// console.log(Math.trunc(Math.random() * 4)+ 1);
+
+// console.log(Math.trunc(Math.random() * 6) + 1);
+
+// //cosole
+// const randomInt = (min, max) => Math.trunc(Math.random() * (max - min) + 1);
+
+// //console.log(randomInt(10, 20));
+
+// console.log(Math.round(5.4));
+
+// console.log(Math.ceil(23.3));
+// console.log(Math.floor(46.2))
+
+// console.log(Math.trunc(23.3));
+// console.log(Math.floor(23.3))
+// console.log("_________")
+// console.log((2.7).toFixed(0));
+// console.log((2.7).toFixed(3));
+// console.log((2.7).toFixed(3));
+
+// console.log(+(2.345).toFixed(2));
+
+// console.log(5 % 2);
+
+// console.log(6 % 2);
+// console.log(6 / 2);
+
+// console.log(7 % 2);
+// console.log(7 / 2);
+
+// const isEven = n => n % 2 === 0;
+// console.log(isEven(8));
+// console.log(isEven(23));
+// console.log(isEven(514));
+
+// console.log(2 ** 53 - 1);
+// //console.log(Number.Max_SAFE_INTEGER)
+// console.log(2 ** 53 +1);
+// console.log(2 ** 53 +2);
+// console.log(2 ** 53 +3);
+// console.log(2 ** 53 +4);
+
+// console.log(483843024567856456456787878978941231507984564089745489n);
+
+// console.log(BigInt(48385645645645456121239878978123165));
+
+// //operations
+// console.log(10000n + 10000n);
+// console.log(456798461245678905640125979n * 10000000n);
+
+// const huge = 4987059787868446798n;
+// const num = 23;
+// console.log(huge * BigInt(num));
+
+// console.log(20n > 15);
+// console.log(20n === 20);
+// console.log(typeof 20n);
+
+// console.log(20n == '20');
+
+// console.log(huge + ' is REALLY big!!!');
+// console.log(BigInt(456465456478978015498787441456789798413156759715456789897489456));
+
+// //divisions
+// console.log(10n / 3n);
+// console.log(10 / 3);
+
+
+// //Create a date 
+// const now = (time)=>Date();
+// console.log(now);
+
+
+// console.log(new Date('Aug 02 2020 18:05:41'));
+// console.log(new Date('December 24, 2015'));
+// console.log(new Date('December 24, 2015'));
+
+// console.log(new Date(2037, 10, 19, 15, 23, 5));
+// console.log(new Date(2037, 10, 31));
+
+// console.log(new Date(0));
+// console.log(new Date(2005 * 24 * 60 * 60 * 1000));
+
+// const future = new Date(2037, 10, 19, 15, 23);
+// console.log(future);
+// console.log(future.getFullYear());
+// console.log(future.getMonth());
+// console.log(future.getDate());
+// console.log(future.getDay());
+// console.log(future.getHours());
+// console.log(future.getMinutes());
+// console.log(future.getSeconds());
+
+// const future = new Date(2037, 10, 19, 15, 23);
+// console.log(+future);
+
+// const calcDayspassed = (date1, date2) =>
+// Math.abs(date2 - date1) / (1000 * 60 * 60 * 24);
+
+// const days1 = calcDayspassed(new Date(2037, 3, 4),
+// new Date(2037, 3, 14));
+// console.log(days1);
+
+// console.log(`${future}`)
+
+
+
+// console.log()
+
+// const num = 3884764.23;
+
+// console.log('US:     ', new Intl.NumberFormat
+// ('en-US').format(num));
+
+// console.log('Germany: ', new Intl.NumberFormat
+// ('de-De').format(num));
+
+// console.log('Syria: ', new Intl.NumberFormat
+// ('ar-SY').format(num));
+
+// setTimeout(() => {console.log("this is the first message")}, 1000);
+//   setTimeout(() => {console.log("this is the second message")}, 1000);
+//   setTimeout(() => {console.log("this is the third message")}, 1000);
+
+  // Output:
+
+  // this is the third message
+  // this is the second message
+  // this is the first message
+
+  setTimeout((ing1, ing2) => console.log(`Here is your pizza 🍕🍕 with ${ing1} and ${ing2} 🍕🍕`), 3000, 'olives', 'spinach');
+  console.log(`Waiting...`);
+
+//setInterval
+setInterval(function () {
+    const now = new Date();
+    console.log(now);
+}, 1000);
+
+document.write("Sdf");
+
+
+
+
+
+
+document.write("Sdf");
+
+
+
+
+
+document.write("Sdf");
+     </script>
+</body>
+</html>

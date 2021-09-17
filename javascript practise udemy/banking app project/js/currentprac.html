@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+</head>
+<body>
+    
+    <a href="https://www.google.com" id="anchor">Click Me</a>
+    <form action=" " id="myForm">
+        <input type="text">
+        <input type="submit">
+
+    </form>
+
+    <script>
+        let link = document.getElementById("anchor");
+
+        link.addEventListener('click', function(e){
+            console.log("link Clicked...");
+            e.preventDefault();
+        });
+
+
+        let form = document.getElementById("myForm");
+
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+
+        });
+    </script>
+
+</body>
+</html>
