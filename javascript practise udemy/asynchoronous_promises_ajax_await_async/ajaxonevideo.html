@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <p id="demo">Here we load data.</p>
+  <button onclick="loadData()">Click</button>
+
+
+  <script>
+  const data =   axios({
+      url: "https://reqres.in/api/users",
+      method: "get",
+    }).then((data) =>  data.data.data)
+    console.log("data",data);
+  //   function loadData() {
+  //     var xhttp = new XMLHttpRequest();
+  //     xhttp.onreadystatechange = new XMLHttpRequest();
+  //     if(this.readyState == 4 && this.status == 200){
+  //       console.log(this.responseText);
+  //     }
+  //   };
+
+
+  //     xhttp.open('GET', "/ae.txt",true);
+  //     xhttp.send();
+  // }
+
+//   function loadData(){
+//     var xhttp = new XMLHttpRequest();
+//     xhttp.onreadystatechange = function(){
+//     if(this.readyState == 4 && this.status == 200){
+//       document.getElementById('demo').innerHTML = (this.responseText);
+//     }
+//   };
+//   xhttp.open('GET', "./ae.txt", true);
+//   xhttp.send();
+// }
+
+//https://www.youtube.com/watch?v=wqkkcC6X-qQ                   must watch
+  </script>
+  
+</body>
+</html>

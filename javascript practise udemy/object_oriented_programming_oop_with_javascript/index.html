@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object_oriented_programming_oop_with_javascript</title>
+</head>
+<body>
+
+
+    <script>
+        'use strict';
+/*
+        const person = function (firstName, birthYear) {
+            this.firstName = firstName;
+            this.birthYear = birthYear;
+
+            // //Never to this
+            // this.calcAge = function () {            
+            //         console.log(2037 - this.birthYear)                
+            // };
+        };
+
+        const jonas = new person('Jonas', 1991);
+        console.log(jonas);
+
+        const matilda = new person ('Matilda', 2017);
+        const jack = new person('Jack', 1975);
+        const dheeraj = new person('dheeraj', 2021)
+        console.log(matilda, jack,dheeraj);
+
+        console.log(jonas instanceof person);
+
+        function Mobile() {
+            this.model = '3310';
+            this.price = function() {
+                document.write(this.model + " Price Rs. 3000");                
+            }
+        }
+
+        var samsung = new Mobile();
+        samsung.price();
+        
+
+        // prototypes
+        console.log(person.prototype);
+
+        person.prototype.calcAge = function () {
+            console.log(2037 - this.birthYear);
+        };
+
+        jonas.calcAge();
+        matilda.calcAge();
+
+        console.log(jonas.__proto__);
+        console.log(jonas.__proto__ === person.prototype);
+
+        console.log(person.prototype.isPrototypeOf(jonas));
+        console.log(person.prototype.isPrototypeOf(matilda));
+        console.log(person.prototype.isPrototypeOf(person));
+
+        console.log()
+
+        //.prototyeOfLinkedobjects
+
+        person.prototype.species = 'Homo Sapiens';
+        console.log(jonas.species, matilda.species);
+
+      // console.log(jonas.hasownproperty('firstName'));
+        //console.log(jonas.hasownproperty('species'));
+        //prototype
+        console.log(jonas.__proto__);
+        // Object.prototype (top of prototype chain)
+        //console.log(jonas__prot__.__proto__);
+        console.log(jonas.__proto__.__proto__.__proto__);
+
+        console.dir(person.prototype.constructor);
+
+        const arr = [3, 6, 4, 5, 6, 9, 3]; //new Array === [ ]
+        console.log(arr.__proto__);
+        console.log(arr.__proto__ === Array.prototype);
+        console.log(arr.__proto__.proto__);
+
+        Array.prototype.unique = function () {
+            return [...new Set(this)];
+        };
+
+        console.log(arr.unique());
+
+        console.log(arr.unique());
+
+        const h1 = document.querySelector('h1');
+        console.dir(x => x + 1);
+
+
+
+        //coding challange
+        const car  = function(make, speed){
+            this.make = make;
+            this.speed = speed;
+        };
+
+        car.prototype.accelerate = function ()  {
+            this.speed += 10;
+            console.log(`${this.make} is going at ${this.speed} km/h`);
+        };
+
+        car.prototype.accelerate = function ()  {
+            this.speed -= 5;
+            console.log(`${this.make} is going at ${this.speed} km/h`);
+        };
+
+
+
+
+        const bmw = new car('BMW', 120);
+        const mercedes = new car('Mercedes', 95);
+
+        bmw.accelerate();
+        bmw.accelerate();
+        bmw.brake();
+        bmw.accelerate();
+
+ */
+
+//  const Car = function (make, speed) {
+//   this.make = make;
+//   this.speed = speed;
+// };
+
+// Car.prototype.accelerate = function () {
+//   this.speed += 10;
+//   console.log(`${this.make} is going at ${this.speed} km/h`);
+// };
+
+// Car.prototype.brake = function () {
+//   this.speed -= 5;
+//   console.log(`${this.make} is going at ${this.speed} km/h`);
+// };
+
+// const bmw = new Car('BMW', 120);
+// const mercedes = new Car('Mercedes', 95);
+
+// bmw.accelerate();
+// bmw.accelerate();
+// bmw.brake();
+// bmw.accelerate();
+
+// class expression          ND*******
+// const personCl = class {}
+
+// class declaration           ND**********
+
+/*
+class personCl {
+    constructor(firstName, birthYear) {
+        this.firstName = firstName;
+        this.birthYear = birthYear;
+    }
+}
+
+const jessica = new personCl('Jessica', 1996);
+console.log(jessica);
+*/
+
+
+// class personCl {
+//     constructor(firstName, birthYear) {
+//         this.firstName = firstName;
+//         this.birthYear = birthYear;
+//     }
+
+//     calcAge() {
+//         console.log(2037 - this.birthYear);
+//     }
+
+//     greet() {
+//         console.log(`Hey ${this.firstName}`);
+//     }
+// }
+
+// const jessica = new personCl('Jessica', 1996);
+// console.log(jessica);
+// jessica.calcAge();
+
+// console.log(jessica.__proto__ === personCl.prototype);
+// console.log(jessica.__proto__ === personCl.prototype);
+
+// personCl.prototype.greet = function () {
+//     console.log(`Hey ${this.firstName}`);
+// };
+
+//jessica.greet();
+// class Employee {
+//     constructor(givenName, givenExperience, givenDivision) {
+//         this.name = givenName;
+//         this.experience = givenExperience;
+//         this.division = givenDivision;
+//     }
+
+//     slogan(){
+//         return `I am ${this.name} and this company is the best`;
+//     }
+// }
+
+// const harry = new Employee("Harry", 56, "Division");
+// console.log(harry);
+
+
+// const account = {
+//     owner: 'Jonas',
+//     movements: [200, 530, 120, 300],
+
+//     get lates() {
+//         return this.movements.slice(-1).pop();
+//     },
+
+//     set latest(mov) {
+//         this.movements.push(mov)
+//     },
+// };
+
+// console.log(account.latest);
+
+// account.latest = 50;
+// console.log(account.movements);
+
+// const account = {
+//     owner: 'Jonas',
+//     movements: [200, 530, 120, 300],
+
+//     get latest() {
+//         return this.movements.slice(-1).pop();
+//     },
+
+//     set latest(mov) {
+//         this.movements.push(mov);
+//     },
+// };
+
+// console.log(account.latest);
+
+//get example 
+// var person = {
+//     name: "vishwajeet",
+//     age: 25,
+
+//     get getname() {
+//         return this.name.toUpperCase();
+//     }
+// };
+
+
+// person.name = "sdfe";
+
+// console.log(person.getname);
+
+
+/* var person = {
+    name: "Vishwajeet",
+    age: 25,
+
+    set setname(n) {
+        this.name = n.toUpperCase();
+    }
+};
+
+person.setname = "ajit";
+
+console.log(person);*/
+
+// const matilda = new person('Matilda', 2017);
+// const jack = new person('jack', 1975);
+
+// person.hey = function (){
+//     console.log('Hey there 👏');
+//     console.log(this);
+// };
+
+// person.hey();
+
+
+// class Mobile {
+//     static diikjhsp() {
+//         return "Static mehtod"
+//     }
+// }
+
+// document.write(Mobile.diikjhsp());
+
+// const personProto = {
+//     calcAge() {
+//         console.log(2037 - this.birthYear);
+//     },
+
+//     init(firstName, birthYear) {
+//         this.firstName = firstName;
+//         this.birthYear = birthYear;
+//     },
+// };
+
+// const steven = Object.create(personProto);
+// console.log(steven);
+// steven.name = 'Steven';
+// steven.birthYear = 2002;
+// steven.calcAge();
+
+// console.log(steven.__proto__ === personProto);
+
+// const sarah = Object.create(personProto);
+// sarah.init('Sarah', 1979);
+// sarah.calcAge();
+
+// class CarCl = {
+//     get speedUs() {
+
+//     }
+
+//     set speedUs() {
+
+//     }
+// }
+
+// class CarCl {
+//   constructor(make, speed) {
+//     this.make = make;
+//     this.speed = speed;
+//   }
+
+//   accelerate() {
+//     this.speed += 10;
+//     console.log(`${this.make} is going at ${this.speed} km/h`);
+//   }
+
+//   brake() {
+//     this.speed -= 5;
+//     console.log(`${this.make} is going at ${this.speed} km/h`);
+//   }
+
+//   get speedUS() {
+//     return this.speed / 1.6;
+//   }
+
+//   set speedUS(speed) {
+//     this.speed = speed * 1.6;
+//   }
+// }
+
+// const ford = new CarCl('Ford', 120);
+// console.log(ford.speedUS);
+// ford.accelerate();
+// ford.accelerate();
+// ford.brake();
+// ford.speedUS = 50;
+// console.log(ford);
+
+// ///wd***********************************************************************************
+// const person = function (firstName, birthYear) {
+//     this.firstName = firstName;
+//     this.birthYear = birthYear;
+// };
+
+// person.prototype.calcAge = function () {
+//     console.log(2037 - this.birthYear);    
+// };
+
+// const student = function (firstName, birthYear, course) {
+//     person.call(this, firstName, birthYear);
+//     this.course = course;
+// }
+
+// //Linking prototypes
+// // student.prototype = Object.create(person.prototype);
+
+
+// // student.prototype.introduce = function() {
+// //     console.log(`My name is ${this.firstName} and I study ${this.course}`);
+// // };
+
+// // const mike = new student('Mike', 2020, 'Computer Science');
+// // mike.introduce();
+// // mike.calcAge(); 
+
+// // console.log(mike.__proto__);
+// // console.log(mike.__proto__.__proto__);
+
+
+// // console.log(mike instanceof student);
+// // console.log(mike instanceof person);
+// // console.log(mike instanceof Object);
+
+// // student.prototype.constructor = student;
+// // console.dir(student.prototype.constructor);
+// // //wd*************************************************************************************
+// // const Car = function (make, speed) {
+// //   this.make = make;
+// //   this.speed = speed;
+// // };
+
+// // Car.prototype.accelerate = function () {
+// //   this.speed += 10;
+// //   console.log(`${this.make} is going at ${this.speed} km/h`);
+// // };
+
+// // Car.prototype.brake = function () {
+// //   this.speed -= 5;
+// //   console.log(`${this.make} is going at ${this.speed} km/h`);
+// // };
+
+// // const EV = function (make, speed, charge) {
+// //   Car.call(this, make, speed);
+// //   this.charge = charge;
+// // };
+
+// // // Link the prototypes
+// // EV.prototype = Object.create(Car.prototype);
+
+// // EV.prototype.chargeBattery = function (chargeTo) {
+// //   this.charge = chargeTo;
+// // };
+
+// // EV.prototype.accelerate = function () {
+// //   this.speed += 20;
+// //   this.charge--;
+// //   console.log(
+// //     `${this.make} is going at ${this.speed} km/h, with a charge of ${this.charge}`
+// //   );
+// // };
+
+// // const tesla = new EV('Tesla', 120, 23);
+// // tesla.chargeBattery(90);
+// // console.log(tesla);
+// // tesla.brake();
+// // tesla.accelerate();
+
+// // class StudentCl extends personCl {
+// //     // constructor(fullName, birthYear, course){
+// //     //     //Always needs
+// //     //     super(fullName, birthYear)
+// //     }
+
+// //     const martha = new StudentCl('Martha Jones', 2012);
+
+
+// class Rectangle {
+//   constructor(height, width) {
+//     this.name = 'Rectangle';
+//     this.height = height;
+//     this.width = width;
+//   }
+//   sayName() {
+//     console.log('Hi, I am a ', this.name + '.');
+//   }
+//   get area() {
+//     return this.height * this.width;
+//   }
+//   set area(value) {
+//     this._area = value;
+//   }
+// }
+
+// class Square extends Rectangle {
+//   constructor(length) {
+//     this.height; // ReferenceError, super needs to be called first!
+
+//     // Here, it calls the parent class's constructor with lengths
+//     // provided for the Rectangle's width and height
+//     super(length, length);
+
+//     // Note: In derived classes, super() must be called before you
+//     // can use 'this'. Leaving this out will cause a reference error.
+//     this.name = 'Square';
+//   }
+// }
+
+// class DateFormatter extends Date {
+
+// getFormattedDate() {
+//   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+//     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+//   return `${this.getDate()}-${months[this.getMonth()]}-${this.getFullYear()}`;
+// }
+
+// }
+
+// console.log(new DateFormatter('August 19, 1975 23:15:30').getFormattedDate());
+// // expected output: "19-Aug-1975"
+// const PersonProto = {
+//   calcAge() {
+//     console.log(2037 - this.birthYear);
+//   },
+
+//   init(firstName, birthYear) {
+//     this.firstName = firstName;
+//     this.birthYear = birthYear;
+//   },
+// };
+
+// const steven = Object.create(PersonProto);
+
+// const StudentProto = Object.create(PersonProto);
+// StudentProto.init = function (firstName, birthYear, course) {
+//   PersonProto.init.call(this, firstName, birthYear);
+//   this.course = course;
+// };
+
+// StudentProto.introduce = function () {
+//     console.log(`My name is ${this.fullName} and I study ${this.course}`);
+// }
+ 
+// const jay = Object.create(StudentProto);
+// jay.init('Jay', 2010, 'Computer Science');
+// jay.introduce();
+// jay.calcAge();
+
+//Public fields
+//private fields
+//public methods
+//private method
+// class Account {
+//     //public fields
+//     local = navigator.language;
+  
+
+//     // 2) private fields
+//     // nse
+//     #movements = [ ];
+//     #pin;
+
+//     constructor(owner, currency, pin) {
+//         this.owner = owner;
+//         this.currency = currency;
+//         this.#pin = pin;
+//         //protected property
+//         //this._movements = [ ];
+//         //this.locale = navigator.language;
+
+//         console.log(`Thanks for opening an account, ${owner}`);
+//     }
+
+//     //public interface
+
+//     // public interface
+//     getMovements() {
+//         return this.#movements;
+//     }
+
+//     deposit(val) {
+//         this.#movements.push(val)
+//         return this;
+//     }
+
+//     withdraw(val) {
+//         this.deposit(-val);
+//         return this;
+//     }
+
+
+//     requestLoan(val) {
+//         if(this.#approvelLoan(val)) {
+//             this.deposit(val);
+//             console.log(`Loan approved`);
+//             return this;
+//         }
+//     }
+
+//     static helper() {
+//         console.log('Helper');
+//     }
+
+//     //4) private methods    
+//     #approvelLoan(val) {
+//         return true;
+//     }
+// }
+
+// const acc1 = new Account('Jonas', 'EUR', 1111);
+
+// //acc1.movements.push(250);
+// //acc1.movements.push(-140);
+
+// //acc1._movements.push(250);
+// //acc1._movements.push(-140);
+// acc1.deposit(250);
+// acc1.withdraw(140)
+// acc1.requestLoan(1000);
+// //acc1.approvelLoan(1000);
+// console.log(acc1.getMovements());
+
+// console.log(acc1);
+// console.log(acc1.pin)
+
+// Account.helper()
+// //console.log(acc1.#movements);
+// //console.log(acc1.#pin);
+// //console.log(acc1.#approveLoan(100));
+
+
+// //chaining
+// acc1.deposit(300).deposit(500).withdraw(35).requestLoan(25000).withdraw(4000);
+// console.log(acc1.getMovements());
+// class EV extends car {
+
+// }
+
+//1. Re-create challenge #3, but this time using ES6 classes: create an 'EVCl' child class of the 'CarCl' class
+//2. Make the 'charge' property private;
+//3. Implement the ability to chain the 'accelerate' and 'chargeBattery' methods of this class, and also update the 'brake' method in the 'CarCl' class. They experiment with chining!
+
+//DATA CAR 1: 'Rivian' going at 120 km/h, with a charge of 23%
+class CarCl {
+  constructor(make, speed) {
+    this.make = make;
+    this.speed = speed;
+  }
+
+  accelerate() {
+    this.speed += 10;
+    console.log(`${this.make} is going at ${this.speed} km/h`);
+  }
+
+  brake() {
+    this.speed -= 5;
+    console.log(`${this.make} is going at ${this.speed} km/h`);
+    return this;
+  }
+
+  get speedUS() {
+    return this.speed / 1.6;
+  }
+
+  set speedUS(speed) {
+    this.speed = speed * 1.6;
+  }
+}
+
+class EVCl extends CarCl {
+  #charge;
+
+  constructor(make, speed, charge) {
+    super(make, speed);
+    this.#charge = charge;
+  }
+
+  chargeBattery(chargeTo) {
+    this.#charge = chargeTo;
+    return this;
+  }
+
+  accelerate() {
+    this.speed += 20;
+    this.#charge--;
+    console.log(
+      `${this.make} is going at ${this.speed} km/h, with a charge of ${
+        this.#charge
+      }`
+    );
+    return this;
+  }
+}
+
+const rivian = new EVCl('Rivian', 120, 23);
+console.log(rivian);
+// console.log(rivian.#charge);
+rivian
+  .accelerate()
+  .accelerate()
+  .accelerate()
+  .brake()
+  .chargeBattery(50)
+  .accelerate();
+
+console.log(rivian.speedUS);
+    </script>
+</body>
+</html>

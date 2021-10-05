@@ -1,0 +1,30 @@
+{
+  "mappings": "YAAwBA,SAASC,cAAa,WAc9BC,qBAENC,QAAiBC,MAAK,iFAGtBC,QAAaF,EAASG,UAExBH,EAASI,GAAE,MAAQC,MAAK,GAAIH,EAAKI,WAAWC,IAAIC,UAEpDC,QAAQC,IAAIR,SACLS,GACPC,MAAMD,KAGVE",
+  "sources": [
+    "src/js/controller.js"
+  ],
+  "sourcesContent": [
+    "const recipeContainer = document.querySelector('.recipe');\n\nconst timeout = function (s) {\n  return new Promise(function (_, reject) {\n    setTimeout(function () {\n      reject(new Error(`Request took too long! Timeout after ${s} second`));\n    }, s * 1000);\n  });\n};\n\n// https://forkify-api.herokuapp.com/v2\n\n///////////////////////////////////////\n\nconst showRecipe = async () => {\n  try {\n    const response = await fetch(\n      'https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886zzzz'\n    );\n    const data = await response.json();\n\n    if (response.ok) throw Error(`${data.message} ${res.status}`);\n\n    console.log(data);\n  } catch (err) {\n    alert(err);\n  }\n};\nshowRecipe();\n"
+  ],
+  "names": [
+    "document",
+    "querySelector",
+    "async",
+    "response",
+    "fetch",
+    "data",
+    "json",
+    "ok",
+    "Error",
+    "message",
+    "res",
+    "status",
+    "console",
+    "log",
+    "err",
+    "alert",
+    "$d13712820ca5e1f6986cbe8ea4cce0db$var$showRecipe"
+  ],
+  "version": 3,
+  "file": "index.944e7764.js.map"
+}
