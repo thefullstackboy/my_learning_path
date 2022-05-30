@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "vname": "Charantis",
+        "price": "25"
+    },
+    {
+        "id": 2,
+        "vname": "Calabash",
+        "price": "65"
+    },
+    {
+        "id": 3,
+        "vname": "Cabbage",
+        "price": "55"
+    },
+    {
+        "id": 4,
+        "vname": "Capsicum ",
+        "price": "45"
+    },
+    {
+        "id": 5,
+        "vname": "Carrot",
+        "price": "55"
+    },
+    {
+        "id": 6,
+        "vname": "Cauliflower",
+        "price": "15"
+    },
+    {
+        "id": 7,
+        "vname": "Corinder leaf",
+        "price": "55"
+    },
+    {
+        "id": 8,
+        "vname": "Corn",
+        "price": "42"
+    },
+    {
+        "id": 9,
+        "vname": "Celery",
+        "price": "47"
+    },
+    {
+        "id": 10,
+        "vname": "Red Chilli",
+        "price": "37"
+    },
+    {
+        "id": 11,
+        "vname": "French Beans",
+        "price": "44"
+    },
+    {
+        "id": 12,
+        "vname": "Cucumber",
+        "price": "34"
+    }
+]

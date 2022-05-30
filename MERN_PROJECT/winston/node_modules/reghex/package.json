@@ -1,0 +1,86 @@
+{
+  "name": "reghex",
+  "version": "3.0.2",
+  "description": "The magical sticky regex-based parser generator 🧙",
+  "author": "Phil Pluckthun <phil@kitten.sh>",
+  "license": "MIT",
+  "main": "dist/reghex-core",
+  "module": "dist/reghex-core.mjs",
+  "source": "src/core.js",
+  "sideEffects": false,
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "dist",
+    "src",
+    "babel.js",
+    "macro.js"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/reghex-core.mjs",
+      "require": "./dist/reghex-core.js"
+    },
+    "./babel": {
+      "require": "./dist/reghex-babel.js"
+    },
+    "./macro": {
+      "require": "./dist/reghex-macro.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "prepublishOnly": "run-s clean build test",
+    "clean": "rimraf dist ./node_modules/.cache",
+    "build": "rollup -c rollup.config.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "regex",
+    "sticky regex",
+    "parser",
+    "parser generator",
+    "babel"
+  ],
+  "repository": "https://github.com/kitten/reghex",
+  "bugs": {
+    "url": "https://github.com/kitten/reghex/issues"
+  },
+  "devDependencies": {
+    "@ampproject/rollup-plugin-closure-compiler": "^0.27.0",
+    "@babel/core": "7.15.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.0",
+    "@babel/plugin-transform-template-literals": "^7.14.5",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/pluginutils": "^4.1.1",
+    "@sucrase/jest-plugin": "^2.1.1",
+    "babel-jest": "^27.1.0",
+    "babel-plugin-closure-elimination": "^1.3.2",
+    "husky-v4": "^4.3.8",
+    "jest": "^27.1.0",
+    "lint-staged": "^11.1.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.3"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,md}": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --quiet --relative"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "\\.js$": "@sucrase/jest-plugin"
+    }
+  }
+}
